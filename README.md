@@ -27,9 +27,18 @@
 11. name of affected .class file
 
 
-## Inner Classes
+## Challenges 
+
+### Inner Classes
 
 1. Named inner classes are separated out into separate records (rows within the CSV file).
-2. Anymymous inner classes are considered to be parts of their parents
+2. Anymymous inner classes are considered to be part of their parents
+
+### Dataset Start & Age
+
+SAP-KB and GHSA only overlap for a few years: [SAP-KB: 2005-2019](https://github.com/SAP/project-kb/tree/vulnerability-data/statements), [GHSA starts in 2017](https://github.com/github/advisory-database/tree/main/advisories/github-reviewed). Start with overlap, this is still a good size, then discuss later whether there is an easy way to extend this. 
+
+
+   
 
  
