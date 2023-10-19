@@ -2,7 +2,7 @@
 
 
 1. collect CVEs recorded in the [SAP-kb](https://github.com/SAP/project-kb/) project, this will have patch commits, incl [the actual sources that have been changed](https://github.com/SAP/project-kb/blob/vulnerability-data/statements/CVE-2016-4464/statement.yaml)
-2. then look up version ranges, using [GHSA API](https://docs.github.com/en/rest/security-advisories/global-advisories?apiVersion=2022-11-28#get-a-global-security-advisory) (or if this does not work, snyk or NVD). Open: need to map CVEs to GHSA id for query. Can clone https://github.com/github/advisory-database/ and the get info from JSON entries , alias field.
+2. then look up version ranges, using [GHSA API](https://docs.github.com/en/rest/security-advisories/global-advisories?apiVersion=2022-11-28#get-a-global-security-advisory) (or if this does not work, snyk or NVD). Open: need to map CVEs to GHSA id for query. Can clone [https://github.com/github/advisory-database/](https://github.com/github/advisory-database/) and then get info from JSON entries , alias field.
 3. this would give us vulnerable and fixed version ranges, so we can use this to locate the built jars in Maven Central. The advantage of this approach is that we avoid building which is known to be tricky at scale (todo: look up Crista Lopez' work for supporting ref).
 
 
