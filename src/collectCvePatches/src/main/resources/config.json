@@ -1,0 +1,8 @@
+{
+  "kbConfig": {
+    "projectKbRepoPath": "D:/project-kb"
+  },
+  "ghsaConfig": {
+    "githubAdvisoryRepoPath": "D:/advisory-database"
+  }
+}
