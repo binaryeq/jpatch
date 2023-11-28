@@ -1,7 +1,7 @@
 # data collection pipeline
 
 - load project-kb data:
-   - from \<project-kb-repo\>/statements
+   - from [\<project-kb-repo\>](https://github.com/SAP/project-kb.git)/statements
    - only the ones that have "fixes" field (fix commits)
    - stats:
      - #statements: 1297
@@ -12,7 +12,7 @@
      - "vulnerability_id" = CVE id
 
 - load GHSA data:
-  - only "github-reviewed" (from \<ghsa-repo\>/advisories/github-reviewed)
+  - only "github-reviewed" (from [\<ghsa-repo\>](https://github.com/github/advisory-database.git)/advisories/github-reviewed)
   - stats:
     - #records: 3989
   - notes:
@@ -36,7 +36,7 @@
     - there is no clear and coherent semantic for "last_affected" field
 
 - get version list of each GA from Maven
-   - from https://repo1.maven.org/maven2/\<GA\>/maven-metadata.xml and https://repo.jenkins-ci.org/releases/\<GA\>/maven-metadata.xml
+   - from `https://repo1.maven.org/maven2/<GA>/maven-metadata.xml` and `https://repo.jenkins-ci.org/releases/<GA>/maven-metadata.xml`
    -  stats:
       -  #errors: 4
       -  #GA: 167
