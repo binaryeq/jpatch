@@ -1,7 +1,7 @@
 # data collection pipeline
 
 - load project-kb data:
-   - from [\<project-kb-repo\>](https://github.com/SAP/project-kb/tree/vulnerability-data)/statements
+   - from [`<project-kb-repo>/statements`](https://github.com/SAP/project-kb/tree/vulnerability-data/statements)
    - only the ones that have "fixes" field (fix commits)
    - stats:
      - #statements: 1297
@@ -12,7 +12,7 @@
      - "vulnerability_id" = CVE id
 
 - load GHSA data:
-  - only "github-reviewed" (from [\<ghsa-repo\>](https://github.com/github/advisory-database.git)/advisories/github-reviewed)
+  - only "github-reviewed" (from [`<ghsa-repo>/advisories/github-reviewed`](https://github.com/github/advisory-database.git))
   - stats:
     - #records: 3989
   - notes:
