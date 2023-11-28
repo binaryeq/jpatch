@@ -1,8 +1,8 @@
 {
   "kbConfig": {
-    "projectKbRepoPath": "/home/mm/w/project-kb"
+    "projectKbRepoPath": "repo/path/on/disk"
   },
   "ghsaConfig": {
-    "githubAdvisoryRepoPath": "/home/mm/w/advisory-database"
+    "githubAdvisoryRepoPath": "repo/path/on/disk"
   }
 }

@@ -227,35 +227,6 @@
             <artifactId>jackson-databind</artifactId>
             <version>LATEST</version>
         </dependency>
-        <dependency>
-            <groupId>com.github.gumtreediff</groupId>
-            <artifactId>core</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.gumtreediff</groupId>
-            <artifactId>gen.jdt</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.gumtreediff</groupId>
-            <artifactId>gen.javaparser</artifactId>
-            <version>3.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.gumtreediff</groupId>
-            <artifactId>gen.treesitter</artifactId>
-            <version>3.1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/resources/jars/gen.treesitter-3.1.0-SNAPSHOT.jar</systemPath>
-        </dependency>
-        <!--        <dependency>-->
-        <!--            <groupId>com.github.gumtreediff</groupId>-->
-        <!--            <artifactId>gumtree</artifactId>-->
-        <!--            <version>2.0.0</version>-->
-        <!--            <scope>system</scope>-->
-        <!--            <systemPath>${project.basedir}/src/main/resources/jars/gumtree.jar</systemPath>-->
-        <!--        </dependency>-->
     </dependencies>
 
 </project>
