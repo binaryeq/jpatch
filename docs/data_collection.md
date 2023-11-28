@@ -1,7 +1,7 @@
 # data collection pipeline
 
 - load project-kb data:
-   - from [\<project-kb-repo\>](https://github.com/SAP/project-kb.git)/statements
+   - from [\<project-kb-repo\>](https://github.com/SAP/project-kb/tree/vulnerability-data)/statements
    - only the ones that have "fixes" field (fix commits)
    - stats:
      - #statements: 1297
