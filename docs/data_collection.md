@@ -12,7 +12,7 @@
      - "vulnerability_id" = CVE id
 
 - load GHSA data:
-  - only "github-reviewed" (from [`<ghsa-repo>/advisories/github-reviewed`](https://github.com/github/advisory-database.git))
+  - only "github-reviewed" (from [`<ghsa-repo>/advisories/github-reviewed`](https://github.com/github/advisory-database/tree/main/advisories/github-reviewed))
   - stats:
     - #records: 3989
   - notes:
