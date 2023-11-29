@@ -42,7 +42,8 @@
       -  #GA: 167
       -  #versions: 14477
 
-- get the latest non-vulnerable version of each package per CVE
+- get the latest vulnerable version of each package per CVE
+  - we look up the fixed version from the version list and count the version right before it as the latest vulnerable version.
   - stats:
     - #records that their "kb.affected.fixed" version is not present in Maven: 47
     - #remaining records: 204
@@ -52,7 +53,7 @@
     - #commit fetch errors: 5
     - #total number of modified files: 639
   - notes: 
-    - 73 records do not have "source changes" tar file in GHSA. that's why we decided to get patches directly from their repositories
+    - 73 records do not have "source changes" tar file in project-kb. that's why we decided to get patches directly from their repositories
 
 - filter out modified files that do not change any method
   - stats:
