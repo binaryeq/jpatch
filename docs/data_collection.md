@@ -52,7 +52,7 @@
     - #commit fetch errors: 5
     - #total number of modified files: 639
   - notes: 
-    - 73 records do not have "source changes" tar file in GHSA. that's why we decided to get patches directly from their repositories
+    - 73 records do not have "source changes" tar file in project-kb. that's why we decided to get patches directly from their repositories
 
 - filter out modified files that do not change any method
   - stats:
