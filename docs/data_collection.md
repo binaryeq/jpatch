@@ -42,7 +42,7 @@
       -  #GA: 167
       -  #versions: 14477
 
-- get the earliest non-vulnerable version of each package per CVE
+- get the latest vulnerable version of each package per CVE
   - stats:
     - #records that their "kb.affected.fixed" version is not present in Maven: 47
     - #remaining records: 204
