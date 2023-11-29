@@ -43,6 +43,7 @@
       -  #versions: 14477
 
 - get the latest vulnerable version of each package per CVE
+  - we look up the fixed version from the version list and count the version right before it as the latest vulnerable version.
   - stats:
     - #records that their "kb.affected.fixed" version is not present in Maven: 47
     - #remaining records: 204
