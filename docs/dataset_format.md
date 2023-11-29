@@ -1,0 +1,26 @@
+- all of the (processed) data is in `data/proc` directory.
+- `data/proc/changes.tsv`, `data/proc/changes.json`, and ``data/proc/changes.v2.json`` contain the exact same information but in different formats. 
+  - `data/proc/changes.tsv` is tab separated. first row is the header.
+  - `data/proc/changes.json` is json formatted. `diffParsedJson` field is a json-formatted raw string.
+  - `data/proc/changes.v2.json` is json formatted. `diffParsedJson` field is a json object.
+  - the columns/fields are:
+    - `cveId`: The CVE id, which is `vulnerability_id` in project-kb dataset and `aliases` in GHSA dataset.
+    - `ghsaId`: `id` field in GHSA dataset.
+    - `packageName`: `affected.package.name` in GHSA dataset.
+    - `vulnIntroduced`: `affected.ranges.events.introduced` in GHSA dataset.
+    - `latestVulnVersion`: the version right before the `fixedVersion`.
+    - `fixedVersion`: `affected.ranges.events.fixed` in GHSA dataset.
+    - `fixCommitRepo`: `fixes.commits.repository` in project-kb dataset.
+    - `fixCommitHash`: `fixes.commits.id` in project-kb dataset.
+    - `jarBefore`: the jar file location of the `latestVulnVersion` of the package relative to the `data` directory. the format is `proc/changes/<cveId>/<fixCommitHash>/before/jar/<jarFileName>`
+    - `jarAfter`: the jar file location of the `fixedVersion` of the package relative to the `data` directory. the format is `proc/changes/<cveId>/<fixCommitHash>/after/jar/<jarFileName>`
+    - `srcBefore`: the java source file location of the `latestVulnVersion` of the package relative to the `data` directory. the format is `proc/changes/<cveId>/<fixCommitHash>/before/java/<pathToTheSource>`
+    - `srcAfter`: the java source file location of the `fixedVersion` of the package relative to the `data` directory. the format is `proc/changes/<cveId>/<fixCommitHash>/after/java/<pathToTheSource>`
+    - `classFileBefore`: the .class file (extracted from jar) location of the `latestVulnVersion` of the package relative to the `data` directory. the format is `proc/changes/<cveId>/<fixCommitHash>/before/class/<pathToTheSource>`
+    - `classFileAfter`: the .class file (extracted from jar) location of the `fixedVersion` of the package relative to the `data` directory. the format is `proc/changes/<cveId>/<fixCommitHash>/after/class/<pathToTheSource>`
+    - `changedClass`: name of the modified class in the patch commit.
+    - `changedMethods`: list of the modified methods in `changedClass`.
+    - `packageIdBefore`: the package that contains `changedClass` before the commit.
+    - `packageIdAfter`: the package that contains `changedClass` after the commit.
+    - `diffParsedJson`: json-formatted diff of between the java source file before and after the commit. 
+    - `nloc`: number of lines of code in `srcAfter`.
