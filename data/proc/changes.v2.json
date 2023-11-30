@@ -15,7 +15,22 @@
     "classFileBefore": "proc/changes/CVE-2013-7285/6344867dce6767af7d0fe34fb393271a6456672d/before/class/xstream/src/java/com/thoughtworks/xstream/XStream.class",
     "classFileAfter": "proc/changes/CVE-2013-7285/6344867dce6767af7d0fe34fb393271a6456672d/after/class/xstream/src/java/com/thoughtworks/xstream/XStream.class",
     "changedClass": "XStream",
-    "changedMethods": "[XStream::allowTypes, XStream::denyPermission, XStream::buildMapper, XStream::denyTypes, XStream::allowTypesByWildcard, XStream::allowTypesByRegExp, XStream::allowTypesByRegExp, XStream::denyTypesByRegExp, XStream::setupMappers, XStream::denyTypesByRegExp, XStream::XStream, XStream::setupSecurity, XStream::denyTypesByWildcard, XStream::addPermission]",
+    "changedMethods": [
+      "XStream::allowTypes",
+      "XStream::denyPermission",
+      "XStream::buildMapper",
+      "XStream::denyTypes",
+      "XStream::allowTypesByWildcard",
+      "XStream::allowTypesByRegExp",
+      "XStream::allowTypesByRegExp",
+      "XStream::denyTypesByRegExp",
+      "XStream::setupMappers",
+      "XStream::denyTypesByRegExp",
+      "XStream::XStream",
+      "XStream::setupSecurity",
+      "XStream::denyTypesByWildcard",
+      "XStream::addPermission"
+    ],
     "packageIdBefore": "com.thoughtworks.xstream",
     "packageIdAfter": "com.thoughtworks.xstream",
     "diffJson": {
@@ -634,7 +649,9 @@
     "classFileBefore": "proc/changes/CVE-2019-17513/efb910d38a96494256f36675ef0e5061097dd77d/before/class/ratpack-core/src/main/java/ratpack/server/internal/NettyHandlerAdapter.class",
     "classFileAfter": "proc/changes/CVE-2019-17513/efb910d38a96494256f36675ef0e5061097dd77d/after/class/ratpack-core/src/main/java/ratpack/server/internal/NettyHandlerAdapter.class",
     "changedClass": "NettyHandlerAdapter",
-    "changedMethods": "[NettyHandlerAdapter::newRequest]",
+    "changedMethods": [
+      "NettyHandlerAdapter::newRequest"
+    ],
     "packageIdBefore": "ratpack.server.internal",
     "packageIdAfter": "ratpack.server.internal",
     "diffJson": {
@@ -669,7 +686,13 @@
     "classFileBefore": "proc/changes/CVE-2019-16771/b597f7a865a527a84ee3d6937075cfbb4470ed20/before/class/core/src/main/java/com/linecorp/armeria/common/HttpHeaderNames.class",
     "classFileAfter": "proc/changes/CVE-2019-16771/b597f7a865a527a84ee3d6937075cfbb4470ed20/after/class/core/src/main/java/com/linecorp/armeria/common/HttpHeaderNames.class",
     "changedClass": "HttpHeaderNames",
-    "changedMethods": "[HttpHeaderNames::create, HttpHeaderNames::malformedHeaderNameMessage, HttpHeaderNames::of, HttpHeaderNames::validate, HttpHeaderNames::of]",
+    "changedMethods": [
+      "HttpHeaderNames::create",
+      "HttpHeaderNames::malformedHeaderNameMessage",
+      "HttpHeaderNames::of",
+      "HttpHeaderNames::validate",
+      "HttpHeaderNames::of"
+    ],
     "packageIdBefore": "com.linecorp.armeria.common",
     "packageIdAfter": "com.linecorp.armeria.common",
     "diffJson": {
@@ -1072,7 +1095,22 @@
     "classFileBefore": "proc/changes/CVE-2019-16771/b597f7a865a527a84ee3d6937075cfbb4470ed20/before/class/core/src/main/java/com/linecorp/armeria/common/HttpHeadersBase.class",
     "classFileAfter": "proc/changes/CVE-2019-16771/b597f7a865a527a84ee3d6937075cfbb4470ed20/after/class/core/src/main/java/com/linecorp/armeria/common/HttpHeadersBase.class",
     "changedClass": "HttpHeadersBase",
-    "changedMethods": "[HttpHeadersBase::set, HttpHeadersBase::setObject, HttpHeadersBase::add, HttpHeadersBase::add, HttpHeadersBase::addObject, HttpHeadersBase::normalizeName, HttpHeadersBase::add0, HttpHeadersBase::add, HttpHeadersBase::addObject, HttpHeadersBase::set, HttpHeadersBase::setObject, HttpHeadersBase::validateValue, HttpHeadersBase::malformedHeaderValueMessage, HttpHeadersBase::set]",
+    "changedMethods": [
+      "HttpHeadersBase::set",
+      "HttpHeadersBase::setObject",
+      "HttpHeadersBase::add",
+      "HttpHeadersBase::add",
+      "HttpHeadersBase::addObject",
+      "HttpHeadersBase::normalizeName",
+      "HttpHeadersBase::add0",
+      "HttpHeadersBase::add",
+      "HttpHeadersBase::addObject",
+      "HttpHeadersBase::set",
+      "HttpHeadersBase::setObject",
+      "HttpHeadersBase::validateValue",
+      "HttpHeadersBase::malformedHeaderValueMessage",
+      "HttpHeadersBase::set"
+    ],
     "packageIdBefore": "com.linecorp.armeria.common",
     "packageIdAfter": "com.linecorp.armeria.common",
     "diffJson": {
@@ -1411,7 +1449,9 @@
     "classFileBefore": "proc/changes/CVE-2019-16771/b597f7a865a527a84ee3d6937075cfbb4470ed20/before/class/core/src/main/java/com/linecorp/armeria/internal/ArmeriaHttpUtil.class",
     "classFileAfter": "proc/changes/CVE-2019-16771/b597f7a865a527a84ee3d6937075cfbb4470ed20/after/class/core/src/main/java/com/linecorp/armeria/internal/ArmeriaHttpUtil.class",
     "changedClass": "ArmeriaHttpUtil",
-    "changedMethods": "[ArmeriaHttpUtil::toLowercaseMap]",
+    "changedMethods": [
+      "ArmeriaHttpUtil::toLowercaseMap"
+    ],
     "packageIdBefore": "com.linecorp.armeria.internal",
     "packageIdAfter": "com.linecorp.armeria.internal",
     "diffJson": {
@@ -1446,7 +1486,13 @@
     "classFileBefore": "proc/changes/CVE-2019-10173/f38a1da3ae9491930c2067c12cd2506738b21dab/before/class/xstream/src/java/com/thoughtworks/xstream/XStream.class",
     "classFileAfter": "proc/changes/CVE-2019-10173/f38a1da3ae9491930c2067c12cd2506738b21dab/after/class/xstream/src/java/com/thoughtworks/xstream/XStream.class",
     "changedClass": "XStream",
-    "changedMethods": "[XStream::unmarshal, XStream::setupDefaultSecurity, XStream::readResolve, XStream::setupSecurity, XStream::addPermission]",
+    "changedMethods": [
+      "XStream::unmarshal",
+      "XStream::setupDefaultSecurity",
+      "XStream::readResolve",
+      "XStream::setupSecurity",
+      "XStream::addPermission"
+    ],
     "packageIdBefore": "com.thoughtworks.xstream",
     "packageIdAfter": "com.thoughtworks.xstream",
     "diffJson": {
@@ -1573,7 +1619,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10173/f38a1da3ae9491930c2067c12cd2506738b21dab/before/class/xstream/src/java/com/thoughtworks/xstream/XStream$InternalBlackList.class",
     "classFileAfter": "proc/changes/CVE-2019-10173/f38a1da3ae9491930c2067c12cd2506738b21dab/after/class/xstream/src/java/com/thoughtworks/xstream/XStream$InternalBlackList.class",
     "changedClass": "XStream$InternalBlackList",
-    "changedMethods": "[XStream::InternalBlackList::canConvert]",
+    "changedMethods": [
+      "XStream::InternalBlackList::canConvert"
+    ],
     "packageIdBefore": "com.thoughtworks.xstream",
     "packageIdAfter": "com.thoughtworks.xstream",
     "diffJson": {
@@ -1700,7 +1748,12 @@
     "classFileBefore": "proc/changes/CVE-2018-20433/7dfdda63f42759a5ec9b63d725b7412f74adb3e1/before/class/src/java/com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.class",
     "classFileAfter": "proc/changes/CVE-2018-20433/7dfdda63f42759a5ec9b63d725b7412f74adb3e1/after/class/src/java/com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.class",
     "changedClass": "C3P0ConfigXmlUtils",
-    "changedMethods": "[C3P0ConfigXmlUtils::extractXmlConfigFromDefaultResource, C3P0ConfigXmlUtils::extractXmlConfigFromInputStream, C3P0ConfigXmlUtils::extractXmlConfigFromInputStream, C3P0ConfigXmlUtils::extractXmlConfigFromDefaultResource]",
+    "changedMethods": [
+      "C3P0ConfigXmlUtils::extractXmlConfigFromDefaultResource",
+      "C3P0ConfigXmlUtils::extractXmlConfigFromInputStream",
+      "C3P0ConfigXmlUtils::extractXmlConfigFromInputStream",
+      "C3P0ConfigXmlUtils::extractXmlConfigFromDefaultResource"
+    ],
     "packageIdBefore": "com.mchange.v2.c3p0.cfg",
     "packageIdAfter": "com.mchange.v2.c3p0.cfg",
     "diffJson": {
@@ -1851,7 +1904,10 @@
     "classFileBefore": "proc/changes/CVE-2018-20433/7dfdda63f42759a5ec9b63d725b7412f74adb3e1/before/class/src/java/com/mchange/v2/c3p0/cfg/DefaultC3P0ConfigFinder.class",
     "classFileAfter": "proc/changes/CVE-2018-20433/7dfdda63f42759a5ec9b63d725b7412f74adb3e1/after/class/src/java/com/mchange/v2/c3p0/cfg/DefaultC3P0ConfigFinder.class",
     "changedClass": "DefaultC3P0ConfigFinder",
-    "changedMethods": "[DefaultC3P0ConfigFinder::findConfig, DefaultC3P0ConfigFinder::findExpandEntityReferences]",
+    "changedMethods": [
+      "DefaultC3P0ConfigFinder::findConfig",
+      "DefaultC3P0ConfigFinder::findExpandEntityReferences"
+    ],
     "packageIdBefore": "com.mchange.v2.c3p0.cfg",
     "packageIdAfter": "com.mchange.v2.c3p0.cfg",
     "diffJson": {
@@ -1974,7 +2030,9 @@
     "classFileBefore": "proc/changes/CVE-2019-0193/325824cd391c8e71f36f17d687f52344e50e9715/before/class/solr/core/src/java/org/apache/solr/core/PluginBag$RuntimeLib.class",
     "classFileAfter": "proc/changes/CVE-2019-0193/325824cd391c8e71f36f17d687f52344e50e9715/after/class/solr/core/src/java/org/apache/solr/core/PluginBag$RuntimeLib.class",
     "changedClass": "PluginBag$RuntimeLib",
-    "changedMethods": "[PluginBag::RuntimeLib::isEnabled]",
+    "changedMethods": [
+      "PluginBag::RuntimeLib::isEnabled"
+    ],
     "packageIdBefore": "org.apache.solr.core",
     "packageIdAfter": "org.apache.solr.core",
     "diffJson": {
@@ -2009,7 +2067,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10093/81c21ab0aac6b3e4102a1a8906c8c7eab6f96dae/before/class/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/xwpf/ml2006/Word2006MLParser.class",
     "classFileAfter": "proc/changes/CVE-2019-10093/81c21ab0aac6b3e4102a1a8906c8c7eab6f96dae/after/class/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/ooxml/xwpf/ml2006/Word2006MLParser.class",
     "changedClass": "Word2006MLParser",
-    "changedMethods": "[Word2006MLParser::parse]",
+    "changedMethods": [
+      "Word2006MLParser::parse"
+    ],
     "packageIdBefore": "org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006",
     "packageIdAfter": "org.apache.tika.parser.microsoft.ooxml.xwpf.ml2006",
     "diffJson": {
@@ -2076,7 +2136,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10093/81c21ab0aac6b3e4102a1a8906c8c7eab6f96dae/before/class/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/xml/AbstractXML2003Parser.class",
     "classFileAfter": "proc/changes/CVE-2019-10093/81c21ab0aac6b3e4102a1a8906c8c7eab6f96dae/after/class/tika-parsers/src/main/java/org/apache/tika/parser/microsoft/xml/AbstractXML2003Parser.class",
     "changedClass": "AbstractXML2003Parser",
-    "changedMethods": "[AbstractXML2003Parser::parse]",
+    "changedMethods": [
+      "AbstractXML2003Parser::parse"
+    ],
     "packageIdBefore": "org.apache.tika.parser.microsoft.xml",
     "packageIdAfter": "org.apache.tika.parser.microsoft.xml",
     "diffJson": {
@@ -2135,7 +2197,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10093/81c21ab0aac6b3e4102a1a8906c8c7eab6f96dae/before/class/tika-parsers/src/main/java/org/apache/tika/parser/pkg/StreamingZipContainerDetector.class",
     "classFileAfter": "proc/changes/CVE-2019-10093/81c21ab0aac6b3e4102a1a8906c8c7eab6f96dae/after/class/tika-parsers/src/main/java/org/apache/tika/parser/pkg/StreamingZipContainerDetector.class",
     "changedClass": "StreamingZipContainerDetector",
-    "changedMethods": "[StreamingZipContainerDetector::parseOOXMLContentTypes]",
+    "changedMethods": [
+      "StreamingZipContainerDetector::parseOOXMLContentTypes"
+    ],
     "packageIdBefore": "org.apache.tika.parser.pkg",
     "packageIdAfter": "org.apache.tika.parser.pkg",
     "diffJson": {
@@ -2182,7 +2246,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10094/426be73b9e7500fa3d441231fa4e473de34743f6/before/class/tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper$EmbeddedParserDecorator.class",
     "classFileAfter": "proc/changes/CVE-2019-10094/426be73b9e7500fa3d441231fa4e473de34743f6/after/class/tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper$EmbeddedParserDecorator.class",
     "changedClass": "RecursiveParserWrapper$EmbeddedParserDecorator",
-    "changedMethods": "[RecursiveParserWrapper::EmbeddedParserDecorator::parse]",
+    "changedMethods": [
+      "RecursiveParserWrapper::EmbeddedParserDecorator::parse"
+    ],
     "packageIdBefore": "org.apache.tika.parser",
     "packageIdAfter": "org.apache.tika.parser",
     "diffJson": {
@@ -2445,7 +2511,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10094/426be73b9e7500fa3d441231fa4e473de34743f6/before/class/tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper.class",
     "classFileAfter": "proc/changes/CVE-2019-10094/426be73b9e7500fa3d441231fa4e473de34743f6/after/class/tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper.class",
     "changedClass": "RecursiveParserWrapper",
-    "changedMethods": "[RecursiveParserWrapper::parse]",
+    "changedMethods": [
+      "RecursiveParserWrapper::parse"
+    ],
     "packageIdBefore": "org.apache.tika.parser",
     "packageIdAfter": "org.apache.tika.parser",
     "diffJson": {
@@ -2708,7 +2776,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10088/426be73b9e7500fa3d441231fa4e473de34743f6/before/class/tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper$EmbeddedParserDecorator.class",
     "classFileAfter": "proc/changes/CVE-2019-10088/426be73b9e7500fa3d441231fa4e473de34743f6/after/class/tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper$EmbeddedParserDecorator.class",
     "changedClass": "RecursiveParserWrapper$EmbeddedParserDecorator",
-    "changedMethods": "[RecursiveParserWrapper::EmbeddedParserDecorator::parse]",
+    "changedMethods": [
+      "RecursiveParserWrapper::EmbeddedParserDecorator::parse"
+    ],
     "packageIdBefore": "org.apache.tika.parser",
     "packageIdAfter": "org.apache.tika.parser",
     "diffJson": {
@@ -2971,7 +3041,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10088/426be73b9e7500fa3d441231fa4e473de34743f6/before/class/tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper.class",
     "classFileAfter": "proc/changes/CVE-2019-10088/426be73b9e7500fa3d441231fa4e473de34743f6/after/class/tika-core/src/main/java/org/apache/tika/parser/RecursiveParserWrapper.class",
     "changedClass": "RecursiveParserWrapper",
-    "changedMethods": "[RecursiveParserWrapper::parse]",
+    "changedMethods": [
+      "RecursiveParserWrapper::parse"
+    ],
     "packageIdBefore": "org.apache.tika.parser",
     "packageIdAfter": "org.apache.tika.parser",
     "diffJson": {
@@ -3234,7 +3306,14 @@
     "classFileBefore": "proc/changes/CVE-2019-5427/f38f27635c384806c2a9d6500d80183d9f09d78b/before/class/src/java/com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.class",
     "classFileAfter": "proc/changes/CVE-2019-5427/f38f27635c384806c2a9d6500d80183d9f09d78b/after/class/src/java/com/mchange/v2/c3p0/cfg/C3P0ConfigXmlUtils.class",
     "changedClass": "C3P0ConfigXmlUtils",
-    "changedMethods": "[C3P0ConfigXmlUtils::extractXmlConfigFromInputStream, C3P0ConfigXmlUtils::extractXmlConfigFromDefaultResource, C3P0ConfigXmlUtils::extractXmlConfigFromDefaultResource, C3P0ConfigXmlUtils::attemptSetFeature, C3P0ConfigXmlUtils::extractXmlConfigFromInputStream, C3P0ConfigXmlUtils::cautionDocumentBuilderFactory]",
+    "changedMethods": [
+      "C3P0ConfigXmlUtils::extractXmlConfigFromInputStream",
+      "C3P0ConfigXmlUtils::extractXmlConfigFromDefaultResource",
+      "C3P0ConfigXmlUtils::extractXmlConfigFromDefaultResource",
+      "C3P0ConfigXmlUtils::attemptSetFeature",
+      "C3P0ConfigXmlUtils::extractXmlConfigFromInputStream",
+      "C3P0ConfigXmlUtils::cautionDocumentBuilderFactory"
+    ],
     "packageIdBefore": "com.mchange.v2.c3p0.cfg",
     "packageIdAfter": "com.mchange.v2.c3p0.cfg",
     "diffJson": {
@@ -3537,7 +3616,12 @@
     "classFileBefore": "proc/changes/CVE-2019-5427/f38f27635c384806c2a9d6500d80183d9f09d78b/before/class/src/java/com/mchange/v2/c3p0/cfg/DefaultC3P0ConfigFinder.class",
     "classFileAfter": "proc/changes/CVE-2019-5427/f38f27635c384806c2a9d6500d80183d9f09d78b/after/class/src/java/com/mchange/v2/c3p0/cfg/DefaultC3P0ConfigFinder.class",
     "changedClass": "DefaultC3P0ConfigFinder",
-    "changedMethods": "[DefaultC3P0ConfigFinder::findExpandEntityReferences, DefaultC3P0ConfigFinder::findConfig, DefaultC3P0ConfigFinder::findUsePermissiveParser, DefaultC3P0ConfigFinder::affirmativelyTrue]",
+    "changedMethods": [
+      "DefaultC3P0ConfigFinder::findExpandEntityReferences",
+      "DefaultC3P0ConfigFinder::findConfig",
+      "DefaultC3P0ConfigFinder::findUsePermissiveParser",
+      "DefaultC3P0ConfigFinder::affirmativelyTrue"
+    ],
     "packageIdBefore": "com.mchange.v2.c3p0.cfg",
     "packageIdAfter": "com.mchange.v2.c3p0.cfg",
     "diffJson": {
@@ -3780,7 +3864,9 @@
     "classFileBefore": "proc/changes/CVE-2019-9658/180b4fe37a2249d4489d584505f2b7b3ab162ec6/before/class/src/main/java/com/puppycrawl/tools/checkstyle/XmlLoader.class",
     "classFileAfter": "proc/changes/CVE-2019-9658/180b4fe37a2249d4489d584505f2b7b3ab162ec6/after/class/src/main/java/com/puppycrawl/tools/checkstyle/XmlLoader.class",
     "changedClass": "XmlLoader",
-    "changedMethods": "[XmlLoader::XmlLoader]",
+    "changedMethods": [
+      "XmlLoader::XmlLoader"
+    ],
     "packageIdBefore": "com.puppycrawl.tools.checkstyle",
     "packageIdAfter": "com.puppycrawl.tools.checkstyle",
     "diffJson": {
@@ -3899,7 +3985,9 @@
     "classFileBefore": "proc/changes/CVE-2018-1324/2a2f1dc48e22a34ddb72321a4db211da91aa933b/before/class/src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.class",
     "classFileAfter": "proc/changes/CVE-2018-1324/2a2f1dc48e22a34ddb72321a4db211da91aa933b/after/class/src/main/java/org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.class",
     "changedClass": "X0017_StrongEncryptionHeader",
-    "changedMethods": "[X0017_StrongEncryptionHeader::parseCentralDirectoryFormat]",
+    "changedMethods": [
+      "X0017_StrongEncryptionHeader::parseCentralDirectoryFormat"
+    ],
     "packageIdBefore": "org.apache.commons.compress.archivers.zip",
     "packageIdAfter": "org.apache.commons.compress.archivers.zip",
     "diffJson": {
@@ -3934,7 +4022,9 @@
     "classFileBefore": "proc/changes/CVE-2019-11777/a0bbf1e7da158ae191582f032343c6171e6a0b44/before/class/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/SSLNetworkModule.class",
     "classFileAfter": "proc/changes/CVE-2019-11777/a0bbf1e7da158ae191582f032343c6171e6a0b44/after/class/org.eclipse.paho.client.mqttv3/src/main/java/org/eclipse/paho/client/mqttv3/internal/SSLNetworkModule.class",
     "changedClass": "SSLNetworkModule",
-    "changedMethods": "[SSLNetworkModule::start]",
+    "changedMethods": [
+      "SSLNetworkModule::start"
+    ],
     "packageIdBefore": "org.eclipse.paho.client.mqttv3.internal",
     "packageIdAfter": "org.eclipse.paho.client.mqttv3.internal",
     "diffJson": {
@@ -3989,7 +4079,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10071/cdcf49c0a2b36ffc7a004d54405bb4357870c4b2/before/class/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ClientDataEncoderImpl.class",
     "classFileAfter": "proc/changes/CVE-2019-10071/cdcf49c0a2b36ffc7a004d54405bb4357870c4b2/after/class/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ClientDataEncoderImpl.class",
     "changedClass": "ClientDataEncoderImpl",
-    "changedMethods": "[ClientDataEncoderImpl::validateHMAC]",
+    "changedMethods": [
+      "ClientDataEncoderImpl::validateHMAC"
+    ],
     "packageIdBefore": "org.apache.tapestry5.internal.services",
     "packageIdAfter": "org.apache.tapestry5.internal.services",
     "diffJson": {
@@ -4036,7 +4128,9 @@
     "classFileBefore": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/before/class/src/main/java/net/sf/mpxj/conceptdraw/ConceptDrawProjectReader.class",
     "classFileAfter": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/after/class/src/main/java/net/sf/mpxj/conceptdraw/ConceptDrawProjectReader.class",
     "changedClass": "ConceptDrawProjectReader",
-    "changedMethods": "[ConceptDrawProjectReader::read]",
+    "changedMethods": [
+      "ConceptDrawProjectReader::read"
+    ],
     "packageIdBefore": "net.sf.mpxj.conceptdraw",
     "packageIdAfter": "net.sf.mpxj.conceptdraw",
     "diffJson": {
@@ -4191,7 +4285,9 @@
     "classFileBefore": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/before/class/src/main/java/net/sf/mpxj/ganttdesigner/GanttDesignerReader.class",
     "classFileAfter": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/after/class/src/main/java/net/sf/mpxj/ganttdesigner/GanttDesignerReader.class",
     "changedClass": "GanttDesignerReader",
-    "changedMethods": "[GanttDesignerReader::read]",
+    "changedMethods": [
+      "GanttDesignerReader::read"
+    ],
     "packageIdBefore": "net.sf.mpxj.ganttdesigner",
     "packageIdAfter": "net.sf.mpxj.ganttdesigner",
     "diffJson": {
@@ -4322,7 +4418,9 @@
     "classFileBefore": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/before/class/src/main/java/net/sf/mpxj/ganttproject/GanttProjectReader.class",
     "classFileAfter": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/after/class/src/main/java/net/sf/mpxj/ganttproject/GanttProjectReader.class",
     "changedClass": "GanttProjectReader",
-    "changedMethods": "[GanttProjectReader::read]",
+    "changedMethods": [
+      "GanttProjectReader::read"
+    ],
     "packageIdBefore": "net.sf.mpxj.ganttproject",
     "packageIdAfter": "net.sf.mpxj.ganttproject",
     "diffJson": {
@@ -4453,7 +4551,9 @@
     "classFileBefore": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/before/class/src/main/java/net/sf/mpxj/mspdi/MSPDIReader.class",
     "classFileAfter": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/after/class/src/main/java/net/sf/mpxj/mspdi/MSPDIReader.class",
     "changedClass": "MSPDIReader",
-    "changedMethods": "[MSPDIReader::read]",
+    "changedMethods": [
+      "MSPDIReader::read"
+    ],
     "packageIdBefore": "net.sf.mpxj.mspdi",
     "packageIdAfter": "net.sf.mpxj.mspdi",
     "diffJson": {
@@ -4672,7 +4772,9 @@
     "classFileBefore": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/before/class/src/main/java/net/sf/mpxj/phoenix/PhoenixReader.class",
     "classFileAfter": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/after/class/src/main/java/net/sf/mpxj/phoenix/PhoenixReader.class",
     "changedClass": "PhoenixReader",
-    "changedMethods": "[PhoenixReader::read]",
+    "changedMethods": [
+      "PhoenixReader::read"
+    ],
     "packageIdBefore": "net.sf.mpxj.phoenix",
     "packageIdAfter": "net.sf.mpxj.phoenix",
     "diffJson": {
@@ -4803,7 +4905,9 @@
     "classFileBefore": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/before/class/src/main/java/net/sf/mpxj/planner/PlannerReader.class",
     "classFileAfter": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/after/class/src/main/java/net/sf/mpxj/planner/PlannerReader.class",
     "changedClass": "PlannerReader",
-    "changedMethods": "[PlannerReader::read]",
+    "changedMethods": [
+      "PlannerReader::read"
+    ],
     "packageIdBefore": "net.sf.mpxj.planner",
     "packageIdAfter": "net.sf.mpxj.planner",
     "diffJson": {
@@ -4942,7 +5046,9 @@
     "classFileBefore": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/before/class/src/main/java/net/sf/mpxj/primavera/PrimaveraPMFileReader.class",
     "classFileAfter": "proc/changes/CVE-2020-25020/0d830e8cbe5213968abb1bcb1c816ca2ee00aa53/after/class/src/main/java/net/sf/mpxj/primavera/PrimaveraPMFileReader.class",
     "changedClass": "PrimaveraPMFileReader",
-    "changedMethods": "[PrimaveraPMFileReader::processFile]",
+    "changedMethods": [
+      "PrimaveraPMFileReader::processFile"
+    ],
     "packageIdBefore": "net.sf.mpxj.primavera",
     "packageIdAfter": "net.sf.mpxj.primavera",
     "diffJson": {
@@ -5057,7 +5163,12 @@
     "classFileBefore": "proc/changes/CVE-2021-21234/760acbb939a8d1f7d1a7dfcd51ca848eea04e772/before/class/lib/src/main/java/eu/hinsch/spring/boot/actuator/logview/LogViewEndpoint.class",
     "classFileAfter": "proc/changes/CVE-2021-21234/760acbb939a8d1f7d1a7dfcd51ca848eea04e772/after/class/lib/src/main/java/eu/hinsch/spring/boot/actuator/logview/LogViewEndpoint.class",
     "changedClass": "LogViewEndpoint",
-    "changedMethods": "[LogViewEndpoint::securityCheck, LogViewEndpoint::view, LogViewEndpoint::list, LogViewEndpoint::securityCheck]",
+    "changedMethods": [
+      "LogViewEndpoint::securityCheck",
+      "LogViewEndpoint::view",
+      "LogViewEndpoint::list",
+      "LogViewEndpoint::securityCheck"
+    ],
     "packageIdBefore": "eu.hinsch.spring.boot.actuator.logview",
     "packageIdAfter": "eu.hinsch.spring.boot.actuator.logview",
     "diffJson": {
@@ -5160,7 +5271,13 @@
     "classFileBefore": "proc/changes/CVE-2021-29425/2736b6fe0b3fa22ec8e2b4184897ecadb021fc78/before/class/src/main/java/org/apache/commons/io/FilenameUtils.class",
     "classFileAfter": "proc/changes/CVE-2021-29425/2736b6fe0b3fa22ec8e2b4184897ecadb021fc78/after/class/src/main/java/org/apache/commons/io/FilenameUtils.class",
     "changedClass": "FilenameUtils",
-    "changedMethods": "[FilenameUtils::isIPv4Address, FilenameUtils::isValidHostName, FilenameUtils::getPrefixLength, FilenameUtils::isIPv6Address, FilenameUtils::isRFC3986HostName]",
+    "changedMethods": [
+      "FilenameUtils::isIPv4Address",
+      "FilenameUtils::isValidHostName",
+      "FilenameUtils::getPrefixLength",
+      "FilenameUtils::isIPv6Address",
+      "FilenameUtils::isRFC3986HostName"
+    ],
     "packageIdBefore": "org.apache.commons.io",
     "packageIdAfter": "org.apache.commons.io",
     "diffJson": {
@@ -5775,7 +5892,9 @@
     "classFileBefore": "proc/changes/CVE-2017-1000486/26e44eb7962cbdb6aa2f47eca0f230f3274358f0/before/class/src/main/java/org/primefaces/application/resource/StreamedContentHandler.class",
     "classFileAfter": "proc/changes/CVE-2017-1000486/26e44eb7962cbdb6aa2f47eca0f230f3274358f0/after/class/src/main/java/org/primefaces/application/resource/StreamedContentHandler.class",
     "changedClass": "StreamedContentHandler",
-    "changedMethods": "[StreamedContentHandler::handle]",
+    "changedMethods": [
+      "StreamedContentHandler::handle"
+    ],
     "packageIdBefore": "org.primefaces.application.resource",
     "packageIdAfter": "org.primefaces.application.resource",
     "diffJson": {
@@ -5866,7 +5985,9 @@
     "classFileBefore": "proc/changes/CVE-2017-1000486/26e44eb7962cbdb6aa2f47eca0f230f3274358f0/before/class/src/main/java/org/primefaces/util/DynamicResourceBuilder.class",
     "classFileAfter": "proc/changes/CVE-2017-1000486/26e44eb7962cbdb6aa2f47eca0f230f3274358f0/after/class/src/main/java/org/primefaces/util/DynamicResourceBuilder.class",
     "changedClass": "DynamicResourceBuilder",
-    "changedMethods": "[DynamicResourceBuilder::build]",
+    "changedMethods": [
+      "DynamicResourceBuilder::build"
+    ],
     "packageIdBefore": "org.primefaces.util",
     "packageIdAfter": "org.primefaces.util",
     "diffJson": {
@@ -5917,7 +6038,10 @@
     "classFileBefore": "proc/changes/CVE-2015-3271/98672cdd92b6325ff78c763955a7c045b364095b/before/class/tika-server/src/main/java/org/apache/tika/server/resource/MetadataResource.class",
     "classFileAfter": "proc/changes/CVE-2015-3271/98672cdd92b6325ff78c763955a7c045b364095b/after/class/tika-server/src/main/java/org/apache/tika/server/resource/MetadataResource.class",
     "changedClass": "MetadataResource",
-    "changedMethods": "[MetadataResource::getMetadata, MetadataResource::getMetadataField]",
+    "changedMethods": [
+      "MetadataResource::getMetadata",
+      "MetadataResource::getMetadataField"
+    ],
     "packageIdBefore": "org.apache.tika.server.resource",
     "packageIdAfter": "org.apache.tika.server.resource",
     "diffJson": {
@@ -5960,7 +6084,9 @@
     "classFileBefore": "proc/changes/CVE-2015-3271/98672cdd92b6325ff78c763955a7c045b364095b/before/class/tika-server/src/main/java/org/apache/tika/server/resource/RecursiveMetadataResource.class",
     "classFileAfter": "proc/changes/CVE-2015-3271/98672cdd92b6325ff78c763955a7c045b364095b/after/class/tika-server/src/main/java/org/apache/tika/server/resource/RecursiveMetadataResource.class",
     "changedClass": "RecursiveMetadataResource",
-    "changedMethods": "[RecursiveMetadataResource::getMetadata]",
+    "changedMethods": [
+      "RecursiveMetadataResource::getMetadata"
+    ],
     "packageIdBefore": "org.apache.tika.server.resource",
     "packageIdAfter": "org.apache.tika.server.resource",
     "diffJson": {
@@ -5990,7 +6116,9 @@
     "classFileBefore": "proc/changes/CVE-2015-3271/98672cdd92b6325ff78c763955a7c045b364095b/before/class/tika-server/src/main/java/org/apache/tika/server/resource/TikaResource.class",
     "classFileAfter": "proc/changes/CVE-2015-3271/98672cdd92b6325ff78c763955a7c045b364095b/after/class/tika-server/src/main/java/org/apache/tika/server/resource/TikaResource.class",
     "changedClass": "TikaResource",
-    "changedMethods": "[TikaResource::getText]",
+    "changedMethods": [
+      "TikaResource::getText"
+    ],
     "packageIdBefore": "org.apache.tika.server.resource",
     "packageIdAfter": "org.apache.tika.server.resource",
     "diffJson": {
@@ -6033,7 +6161,9 @@
     "classFileBefore": "proc/changes/CVE-2015-3271/98672cdd92b6325ff78c763955a7c045b364095b/before/class/tika-server/src/main/java/org/apache/tika/server/resource/UnpackerResource.class",
     "classFileAfter": "proc/changes/CVE-2015-3271/98672cdd92b6325ff78c763955a7c045b364095b/after/class/tika-server/src/main/java/org/apache/tika/server/resource/UnpackerResource.class",
     "changedClass": "UnpackerResource",
-    "changedMethods": "[UnpackerResource::process]",
+    "changedMethods": [
+      "UnpackerResource::process"
+    ],
     "packageIdBefore": "org.apache.tika.server.resource",
     "packageIdAfter": "org.apache.tika.server.resource",
     "diffJson": {
@@ -6063,7 +6193,9 @@
     "classFileBefore": "proc/changes/CVE-2018-12542/57a65dce6f4c5aa5e3ce7288685e7f3447eb8f3b/before/class/vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.class",
     "classFileAfter": "proc/changes/CVE-2018-12542/57a65dce6f4c5aa5e3ce7288685e7f3447eb8f3b/after/class/vertx-web/src/main/java/io/vertx/ext/web/handler/impl/StaticHandlerImpl.class",
     "changedClass": "StaticHandlerImpl",
-    "changedMethods": "[StaticHandlerImpl::handle]",
+    "changedMethods": [
+      "StaticHandlerImpl::handle"
+    ],
     "packageIdBefore": "io.vertx.ext.web.handler.impl",
     "packageIdAfter": "io.vertx.ext.web.handler.impl",
     "diffJson": {
@@ -6158,7 +6290,13 @@
     "classFileBefore": "proc/changes/CVE-2018-11761/4e67928412ad56333d400f3728ecdb59d07d9d63/before/class/tika-core/src/main/java/org/apache/tika/utils/XMLReaderUtils.class",
     "classFileAfter": "proc/changes/CVE-2018-11761/4e67928412ad56333d400f3728ecdb59d07d9d63/after/class/tika-core/src/main/java/org/apache/tika/utils/XMLReaderUtils.class",
     "changedClass": "XMLReaderUtils",
-    "changedMethods": "[XMLReaderUtils::trySetXercesSecurityManager, XMLReaderUtils::determineMaxEntityExpansions, XMLReaderUtils::trySetStaxSecurityManager, XMLReaderUtils::setMaxEntityExpansions, XMLReaderUtils::trySetXercesSecurityManager]",
+    "changedMethods": [
+      "XMLReaderUtils::trySetXercesSecurityManager",
+      "XMLReaderUtils::determineMaxEntityExpansions",
+      "XMLReaderUtils::trySetStaxSecurityManager",
+      "XMLReaderUtils::setMaxEntityExpansions",
+      "XMLReaderUtils::trySetXercesSecurityManager"
+    ],
     "packageIdBefore": "org.apache.tika.utils",
     "packageIdAfter": "org.apache.tika.utils",
     "diffJson": {
@@ -6357,7 +6495,39 @@
     "classFileBefore": "proc/changes/CVE-2017-14063/eb9e3347e45319be494db24d285a2aee4396f5d3/before/class/client/src/main/java/org/asynchttpclient/uri/UriParser.class",
     "classFileAfter": "proc/changes/CVE-2017-14063/eb9e3347e45319be494db24d285a2aee4396f5d3/after/class/client/src/main/java/org/asynchttpclient/uri/UriParser.class",
     "changedClass": "UriParser",
-    "changedMethods": "[UriParser::computeIPV6, UriParser::trimFragment, UriParser::removeTailing2Dots, UriParser::computeUserInfo, UriParser::computeInitialScheme, UriParser::computeAuthority, UriParser::parseAuthority, UriParser::removeEmbedded2Dots, UriParser::overrideWithContext, UriParser::removeTrailingDot, UriParser::computeInitialScheme, UriParser::isFragmentOnly, UriParser::isFragmentOnly, UriParser::inheritContextQuery, UriParser::computeQuery, UriParser::trimLeft, UriParser::computeFragment, UriParser::parse, UriParser::splitUrlAndQuery, UriParser::findWithinCurrentRange, UriParser::overrideWithContext, UriParser::trimRight, UriParser::currentPositionStartsWith2Slashes, UriParser::isValidProtocolChars, UriParser::computePath, UriParser::trimRight, UriParser::computeRegularPath, UriParser::removeStartingDot, UriParser::trimLeft, UriParser::handleRelativePath, UriParser::currentPositionStartsWith4Slashes]",
+    "changedMethods": [
+      "UriParser::computeIPV6",
+      "UriParser::trimFragment",
+      "UriParser::removeTailing2Dots",
+      "UriParser::computeUserInfo",
+      "UriParser::computeInitialScheme",
+      "UriParser::computeAuthority",
+      "UriParser::parseAuthority",
+      "UriParser::removeEmbedded2Dots",
+      "UriParser::overrideWithContext",
+      "UriParser::removeTrailingDot",
+      "UriParser::computeInitialScheme",
+      "UriParser::isFragmentOnly",
+      "UriParser::isFragmentOnly",
+      "UriParser::inheritContextQuery",
+      "UriParser::computeQuery",
+      "UriParser::trimLeft",
+      "UriParser::computeFragment",
+      "UriParser::parse",
+      "UriParser::splitUrlAndQuery",
+      "UriParser::findWithinCurrentRange",
+      "UriParser::overrideWithContext",
+      "UriParser::trimRight",
+      "UriParser::currentPositionStartsWith2Slashes",
+      "UriParser::isValidProtocolChars",
+      "UriParser::computePath",
+      "UriParser::trimRight",
+      "UriParser::computeRegularPath",
+      "UriParser::removeStartingDot",
+      "UriParser::trimLeft",
+      "UriParser::handleRelativePath",
+      "UriParser::currentPositionStartsWith4Slashes"
+    ],
     "packageIdBefore": "org.asynchttpclient.uri",
     "packageIdAfter": "org.asynchttpclient.uri",
     "diffJson": {
@@ -7120,7 +7290,9 @@
     "classFileBefore": "proc/changes/CVE-2016-10006/7313931dc3c0d1377b010f07faef2063dd359a36/before/class/src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.class",
     "classFileAfter": "proc/changes/CVE-2016-10006/7313931dc3c0d1377b010f07faef2063dd359a36/after/class/src/main/java/org/owasp/validator/html/scan/MagicSAXFilter.class",
     "changedClass": "MagicSAXFilter",
-    "changedMethods": "[MagicSAXFilter::startElement]",
+    "changedMethods": [
+      "MagicSAXFilter::startElement"
+    ],
     "packageIdBefore": "org.owasp.validator.html.scan",
     "packageIdAfter": "org.owasp.validator.html.scan",
     "diffJson": {
@@ -7191,7 +7363,12 @@
     "classFileBefore": "proc/changes/CVE-2017-7672/931df54ab379bf4eb5a625bf05066b8563c3737b/before/class/core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.class",
     "classFileAfter": "proc/changes/CVE-2017-7672/931df54ab379bf4eb5a625bf05066b8563c3737b/after/class/core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.class",
     "changedClass": "URLValidator",
-    "changedMethods": "[URLValidator::setUrlRegex, URLValidator::validate, URLValidator::getUrlPattern, URLValidator::getUrlRegex]",
+    "changedMethods": [
+      "URLValidator::setUrlRegex",
+      "URLValidator::validate",
+      "URLValidator::getUrlPattern",
+      "URLValidator::getUrlRegex"
+    ],
     "packageIdBefore": "com.opensymphony.xwork2.validator.validators",
     "packageIdAfter": "com.opensymphony.xwork2.validator.validators",
     "diffJson": {
@@ -7462,7 +7639,11 @@
     "classFileBefore": "proc/changes/CVE-2018-11775/bde7097fb8173cf871827df7811b3865679b963d/before/class/activemq-client/src/main/java/org/apache/activemq/transport/nio/NIOSSLTransport.class",
     "classFileAfter": "proc/changes/CVE-2018-11775/bde7097fb8173cf871827df7811b3865679b963d/after/class/activemq-client/src/main/java/org/apache/activemq/transport/nio/NIOSSLTransport.class",
     "changedClass": "NIOSSLTransport",
-    "changedMethods": "[NIOSSLTransport::isVerifyHostName, NIOSSLTransport::initializeStreams, NIOSSLTransport::setVerifyHostName]",
+    "changedMethods": [
+      "NIOSSLTransport::isVerifyHostName",
+      "NIOSSLTransport::initializeStreams",
+      "NIOSSLTransport::setVerifyHostName"
+    ],
     "packageIdBefore": "org.apache.activemq.transport.nio",
     "packageIdAfter": "org.apache.activemq.transport.nio",
     "diffJson": {
@@ -7552,7 +7733,10 @@
     "classFileBefore": "proc/changes/CVE-2018-11775/bde7097fb8173cf871827df7811b3865679b963d/before/class/activemq-client/src/main/java/org/apache/activemq/transport/tcp/SslTransport.class",
     "classFileAfter": "proc/changes/CVE-2018-11775/bde7097fb8173cf871827df7811b3865679b963d/after/class/activemq-client/src/main/java/org/apache/activemq/transport/tcp/SslTransport.class",
     "changedClass": "SslTransport",
-    "changedMethods": "[SslTransport::initialiseSocket, SslTransport::setVerifyHostName]",
+    "changedMethods": [
+      "SslTransport::initialiseSocket",
+      "SslTransport::setVerifyHostName"
+    ],
     "packageIdBefore": "org.apache.activemq.transport.tcp",
     "packageIdAfter": "org.apache.activemq.transport.tcp",
     "diffJson": {
@@ -7738,7 +7922,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11775/bde7097fb8173cf871827df7811b3865679b963d/before/class/activemq-client/src/main/java/org/apache/activemq/transport/tcp/TcpTransportServer.class",
     "classFileAfter": "proc/changes/CVE-2018-11775/bde7097fb8173cf871827df7811b3865679b963d/after/class/activemq-client/src/main/java/org/apache/activemq/transport/tcp/TcpTransportServer.class",
     "changedClass": "TcpTransportServer",
-    "changedMethods": "[TcpTransportServer::configureServerSocket]",
+    "changedMethods": [
+      "TcpTransportServer::configureServerSocket"
+    ],
     "packageIdBefore": "org.apache.activemq.transport.tcp",
     "packageIdAfter": "org.apache.activemq.transport.tcp",
     "diffJson": {
@@ -7816,7 +8002,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11771/a41ce6892cb0590b2e658704434ac0dbcb6834c8/before/class/src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class",
     "classFileAfter": "proc/changes/CVE-2018-11771/a41ce6892cb0590b2e658704434ac0dbcb6834c8/after/class/src/main/java/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class",
     "changedClass": "ZipArchiveInputStream",
-    "changedMethods": "[ZipArchiveInputStream::readStored]",
+    "changedMethods": [
+      "ZipArchiveInputStream::readStored"
+    ],
     "packageIdBefore": "org.apache.commons.compress.archivers.zip",
     "packageIdAfter": "org.apache.commons.compress.archivers.zip",
     "diffJson": {
@@ -7855,7 +8043,9 @@
     "classFileBefore": "proc/changes/CVE-2018-12541/269a583330695d1418a4f5578f7169350b2e1332/before/class/src/main/java/io/vertx/core/http/impl/HttpServerImpl$ServerHandlerWithWebSockets.class",
     "classFileAfter": "proc/changes/CVE-2018-12541/269a583330695d1418a4f5578f7169350b2e1332/after/class/src/main/java/io/vertx/core/http/impl/HttpServerImpl$ServerHandlerWithWebSockets.class",
     "changedClass": "HttpServerImpl$ServerHandlerWithWebSockets",
-    "changedMethods": "[HttpServerImpl::ServerHandlerWithWebSockets::handleMessage]",
+    "changedMethods": [
+      "HttpServerImpl::ServerHandlerWithWebSockets::handleMessage"
+    ],
     "packageIdBefore": "io.vertx.core.http.impl",
     "packageIdAfter": "io.vertx.core.http.impl",
     "diffJson": {
@@ -7954,7 +8144,9 @@
     "classFileBefore": "proc/changes/CVE-2016-3720/f0f19a4c924d9db9a1e2830434061c8640092cc0/before/class/src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.class",
     "classFileAfter": "proc/changes/CVE-2016-3720/f0f19a4c924d9db9a1e2830434061c8640092cc0/after/class/src/main/java/com/fasterxml/jackson/dataformat/xml/XmlFactory.class",
     "changedClass": "XmlFactory",
-    "changedMethods": "[XmlFactory::XmlFactory]",
+    "changedMethods": [
+      "XmlFactory::XmlFactory"
+    ],
     "packageIdBefore": "com.fasterxml.jackson.dataformat.xml",
     "packageIdAfter": "com.fasterxml.jackson.dataformat.xml",
     "diffJson": {
@@ -7988,7 +8180,10 @@
     "classFileBefore": "proc/changes/CVE-2018-12418/ad8d0ba8e155630da8a1215cee3f253e0af45817/before/class/src/main/java/com/github/junrar/Archive.class",
     "classFileAfter": "proc/changes/CVE-2018-12418/ad8d0ba8e155630da8a1215cee3f253e0af45817/after/class/src/main/java/com/github/junrar/Archive.class",
     "changedClass": "Archive",
-    "changedMethods": "[Archive::readHeaders, Archive::safelyAllocate]",
+    "changedMethods": [
+      "Archive::readHeaders",
+      "Archive::safelyAllocate"
+    ],
     "packageIdBefore": "com.github.junrar",
     "packageIdAfter": "com.github.junrar",
     "diffJson": {
@@ -8243,7 +8438,12 @@
     "classFileBefore": "proc/changes/CVE-2017-1000498/44e4fbf1d0f6db295df34601972741d4cf706cbd/before/class/androidsvg/src/main/java/com/caverock/androidsvg/SVGParser.class",
     "classFileAfter": "proc/changes/CVE-2017-1000498/44e4fbf1d0f6db295df34601972741d4cf706cbd/after/class/androidsvg/src/main/java/com/caverock/androidsvg/SVGParser.class",
     "changedClass": "SVGParser",
-    "changedMethods": "[SVGParser::parseUsingXmlPullParser, SVGParser::parseUsingSAX, SVGParser::parseUsingXmlPullParser, SVGParser::parse]",
+    "changedMethods": [
+      "SVGParser::parseUsingXmlPullParser",
+      "SVGParser::parseUsingSAX",
+      "SVGParser::parseUsingXmlPullParser",
+      "SVGParser::parse"
+    ],
     "packageIdBefore": "com.caverock.androidsvg",
     "packageIdAfter": "com.caverock.androidsvg",
     "diffJson": {
@@ -9002,7 +9202,9 @@
     "classFileBefore": "proc/changes/CVE-2018-15531/ef111822562d0b9365bd3e671a75b65bd0613353/before/class/javamelody-core/src/main/java/net/bull/javamelody/PayloadNameRequestWrapper.class",
     "classFileAfter": "proc/changes/CVE-2018-15531/ef111822562d0b9365bd3e671a75b65bd0613353/after/class/javamelody-core/src/main/java/net/bull/javamelody/PayloadNameRequestWrapper.class",
     "changedClass": "PayloadNameRequestWrapper",
-    "changedMethods": "[PayloadNameRequestWrapper::parseSoapMethodName]",
+    "changedMethods": [
+      "PayloadNameRequestWrapper::parseSoapMethodName"
+    ],
     "packageIdBefore": "net.bull.javamelody",
     "packageIdAfter": "net.bull.javamelody",
     "diffJson": {
@@ -9036,7 +9238,14 @@
     "classFileBefore": "proc/changes/CVE-2018-17194/748cf745628dab20b7e71f12b5dcfe6ed0bbf134/before/class/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-cluster/src/main/java/org/apache/nifi/cluster/coordination/http/replication/okhttp/OkHttpReplicationClient.class",
     "classFileAfter": "proc/changes/CVE-2018-17194/748cf745628dab20b7e71f12b5dcfe6ed0bbf134/after/class/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-framework-cluster/src/main/java/org/apache/nifi/cluster/coordination/http/replication/okhttp/OkHttpReplicationClient.class",
     "changedClass": "OkHttpReplicationClient",
-    "changedMethods": "[OkHttpReplicationClient::serializeEntity, OkHttpReplicationClient::isUseGzip, OkHttpReplicationClient::buildUrl, OkHttpReplicationClient::prepareRequest, OkHttpReplicationClient::checkContentLengthHeader, OkHttpReplicationClient::getResponseBytes]",
+    "changedMethods": [
+      "OkHttpReplicationClient::serializeEntity",
+      "OkHttpReplicationClient::isUseGzip",
+      "OkHttpReplicationClient::buildUrl",
+      "OkHttpReplicationClient::prepareRequest",
+      "OkHttpReplicationClient::checkContentLengthHeader",
+      "OkHttpReplicationClient::getResponseBytes"
+    ],
     "packageIdBefore": "org.apache.nifi.cluster.coordination.http.replication.okhttp",
     "packageIdAfter": "org.apache.nifi.cluster.coordination.http.replication.okhttp",
     "diffJson": {
@@ -9447,7 +9656,9 @@
     "classFileBefore": "proc/changes/CVE-2018-1000850/b9a7f6ad72073ddd40254c0058710e87a073047d/before/class/retrofit/src/main/java/retrofit2/RequestBuilder.class",
     "classFileAfter": "proc/changes/CVE-2018-1000850/b9a7f6ad72073ddd40254c0058710e87a073047d/after/class/retrofit/src/main/java/retrofit2/RequestBuilder.class",
     "changedClass": "RequestBuilder",
-    "changedMethods": "[RequestBuilder::addPathParam]",
+    "changedMethods": [
+      "RequestBuilder::addPathParam"
+    ],
     "packageIdBefore": "retrofit2",
     "packageIdAfter": "retrofit2",
     "diffJson": {
@@ -9570,7 +9781,9 @@
     "classFileBefore": "proc/changes/CVE-2018-1000820/45bc09c8bd7f17283e2a7e85ce3f02cb4be4fd1a/before/class/src/main/java/apoc/load/Xml.class",
     "classFileAfter": "proc/changes/CVE-2018-1000820/45bc09c8bd7f17283e2a7e85ce3f02cb4be4fd1a/after/class/src/main/java/apoc/load/Xml.class",
     "changedClass": "Xml",
-    "changedMethods": "[Xml::xmlXpathToMapResult]",
+    "changedMethods": [
+      "Xml::xmlXpathToMapResult"
+    ],
     "packageIdBefore": "apoc.load",
     "packageIdAfter": "apoc.load",
     "diffJson": {
@@ -9600,7 +9813,10 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/action/hadoop/LauncherConfigurationInjector.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/action/hadoop/LauncherConfigurationInjector.class",
     "changedClass": "LauncherConfigurationInjector",
-    "changedMethods": "[LauncherConfigurationInjector::copyToLauncherConf, LauncherConfigurationInjector::inject]",
+    "changedMethods": [
+      "LauncherConfigurationInjector::copyToLauncherConf",
+      "LauncherConfigurationInjector::inject"
+    ],
     "packageIdBefore": "org.apache.oozie.action.hadoop",
     "packageIdAfter": "org.apache.oozie.action.hadoop",
     "diffJson": {
@@ -9667,7 +9883,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/action/oozie/SubWorkflowActionExecutor.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/action/oozie/SubWorkflowActionExecutor.class",
     "changedClass": "SubWorkflowActionExecutor",
-    "changedMethods": "[SubWorkflowActionExecutor::injectInline]",
+    "changedMethods": [
+      "SubWorkflowActionExecutor::injectInline"
+    ],
     "packageIdBefore": "org.apache.oozie.action.oozie",
     "packageIdAfter": "org.apache.oozie.action.oozie",
     "diffJson": {
@@ -9730,7 +9948,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/command/bundle/BundleStartXCommand.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/command/bundle/BundleStartXCommand.class",
     "changedClass": "BundleStartXCommand",
-    "changedMethods": "[BundleStartXCommand::mergeConfig]",
+    "changedMethods": [
+      "BundleStartXCommand::mergeConfig"
+    ],
     "packageIdBefore": "org.apache.oozie.command.bundle",
     "packageIdAfter": "org.apache.oozie.command.bundle",
     "diffJson": {
@@ -9788,7 +10008,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/command/bundle/BundleSubmitXCommand.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/command/bundle/BundleSubmitXCommand.class",
     "changedClass": "BundleSubmitXCommand",
-    "changedMethods": "[BundleSubmitXCommand::mergeDefaultConfig]",
+    "changedMethods": [
+      "BundleSubmitXCommand::mergeDefaultConfig"
+    ],
     "packageIdBefore": "org.apache.oozie.command.bundle",
     "packageIdAfter": "org.apache.oozie.command.bundle",
     "diffJson": {
@@ -9843,7 +10065,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/command/coord/CoordActionStartXCommand.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/command/coord/CoordActionStartXCommand.class",
     "changedClass": "CoordActionStartXCommand",
-    "changedMethods": "[CoordActionStartXCommand::mergeConfig]",
+    "changedMethods": [
+      "CoordActionStartXCommand::mergeConfig"
+    ],
     "packageIdBefore": "org.apache.oozie.command.coord",
     "packageIdAfter": "org.apache.oozie.command.coord",
     "diffJson": {
@@ -9910,7 +10134,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/command/coord/CoordSubmitXCommand.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/command/coord/CoordSubmitXCommand.class",
     "changedClass": "CoordSubmitXCommand",
-    "changedMethods": "[CoordSubmitXCommand::mergeDefaultConfig]",
+    "changedMethods": [
+      "CoordSubmitXCommand::mergeDefaultConfig"
+    ],
     "packageIdBefore": "org.apache.oozie.command.coord",
     "packageIdAfter": "org.apache.oozie.command.coord",
     "diffJson": {
@@ -9965,7 +10191,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/command/coord/CoordUpdateXCommand.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/command/coord/CoordUpdateXCommand.class",
     "changedClass": "CoordUpdateXCommand",
-    "changedMethods": "[CoordUpdateXCommand::storeToDB]",
+    "changedMethods": [
+      "CoordUpdateXCommand::storeToDB"
+    ],
     "packageIdBefore": "org.apache.oozie.command.coord",
     "packageIdAfter": "org.apache.oozie.command.coord",
     "diffJson": {
@@ -10023,7 +10251,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/command/wf/ReRunXCommand.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/command/wf/ReRunXCommand.class",
     "changedClass": "ReRunXCommand",
-    "changedMethods": "[ReRunXCommand::setupReRun]",
+    "changedMethods": [
+      "ReRunXCommand::setupReRun"
+    ],
     "packageIdBefore": "org.apache.oozie.command.wf",
     "packageIdAfter": "org.apache.oozie.command.wf",
     "diffJson": {
@@ -10082,7 +10312,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/command/wf/SubmitHttpXCommand.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/command/wf/SubmitHttpXCommand.class",
     "changedClass": "SubmitHttpXCommand",
-    "changedMethods": "[SubmitHttpXCommand::execute]",
+    "changedMethods": [
+      "SubmitHttpXCommand::execute"
+    ],
     "packageIdBefore": "org.apache.oozie.command.wf",
     "packageIdAfter": "org.apache.oozie.command.wf",
     "diffJson": {
@@ -10149,7 +10381,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/command/wf/SubmitXCommand.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/command/wf/SubmitXCommand.class",
     "changedClass": "SubmitXCommand",
-    "changedMethods": "[SubmitXCommand::execute]",
+    "changedMethods": [
+      "SubmitXCommand::execute"
+    ],
     "packageIdBefore": "org.apache.oozie.command.wf",
     "packageIdAfter": "org.apache.oozie.command.wf",
     "diffJson": {
@@ -10208,7 +10442,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/servlet/V1JobsServlet.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/servlet/V1JobsServlet.class",
     "changedClass": "V1JobsServlet",
-    "changedMethods": "[V1JobsServlet::submitJob]",
+    "changedMethods": [
+      "V1JobsServlet::submitJob"
+    ],
     "packageIdBefore": "org.apache.oozie.servlet",
     "packageIdAfter": "org.apache.oozie.servlet",
     "diffJson": {
@@ -10278,7 +10514,10 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/util/ConfigUtils.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/util/ConfigUtils.class",
     "changedClass": "ConfigUtils",
-    "changedMethods": "[ConfigUtils::checkAndSetConfigValue, ConfigUtils::checkAndSetDisallowedProperties]",
+    "changedMethods": [
+      "ConfigUtils::checkAndSetConfigValue",
+      "ConfigUtils::checkAndSetDisallowedProperties"
+    ],
     "packageIdBefore": "org.apache.oozie.util",
     "packageIdAfter": "org.apache.oozie.util",
     "diffJson": {
@@ -10548,7 +10787,9 @@
     "classFileBefore": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/before/class/core/src/main/java/org/apache/oozie/util/PropertiesUtils.class",
     "classFileAfter": "proc/changes/CVE-2018-11799/d50df341432df1049c6c85bf2dcda9eb0be04d73/after/class/core/src/main/java/org/apache/oozie/util/PropertiesUtils.class",
     "changedClass": "PropertiesUtils",
-    "changedMethods": "[PropertiesUtils::checkDefaultDisallowedProperties]",
+    "changedMethods": [
+      "PropertiesUtils::checkDefaultDisallowedProperties"
+    ],
     "packageIdBefore": "org.apache.oozie.util",
     "packageIdAfter": "org.apache.oozie.util",
     "diffJson": {
@@ -10602,7 +10843,9 @@
     "classFileBefore": "proc/changes/CVE-2018-17197/0c49c851979163334ea05cbebdd11ff87feba62d/before/class/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/AbstractDBParser.class",
     "classFileAfter": "proc/changes/CVE-2018-17197/0c49c851979163334ea05cbebdd11ff87feba62d/after/class/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/AbstractDBParser.class",
     "changedClass": "AbstractDBParser",
-    "changedMethods": "[AbstractDBParser::parse]",
+    "changedMethods": [
+      "AbstractDBParser::parse"
+    ],
     "packageIdBefore": "org.apache.tika.parser.jdbc",
     "packageIdAfter": "org.apache.tika.parser.jdbc",
     "diffJson": {
@@ -10733,7 +10976,10 @@
     "classFileBefore": "proc/changes/CVE-2018-17197/0c49c851979163334ea05cbebdd11ff87feba62d/before/class/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/JDBCTableReader.class",
     "classFileAfter": "proc/changes/CVE-2018-17197/0c49c851979163334ea05cbebdd11ff87feba62d/after/class/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/JDBCTableReader.class",
     "changedClass": "JDBCTableReader",
-    "changedMethods": "[JDBCTableReader::JDBCTableReader, JDBCTableReader::JDBCTableReader]",
+    "changedMethods": [
+      "JDBCTableReader::JDBCTableReader",
+      "JDBCTableReader::JDBCTableReader"
+    ],
     "packageIdBefore": "org.apache.tika.parser.jdbc",
     "packageIdAfter": "org.apache.tika.parser.jdbc",
     "diffJson": {
@@ -10780,7 +11026,10 @@
     "classFileBefore": "proc/changes/CVE-2018-17197/0c49c851979163334ea05cbebdd11ff87feba62d/before/class/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/SQLite3DBParser.class",
     "classFileAfter": "proc/changes/CVE-2018-17197/0c49c851979163334ea05cbebdd11ff87feba62d/after/class/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/SQLite3DBParser.class",
     "changedClass": "SQLite3DBParser",
-    "changedMethods": "[SQLite3DBParser::getTableReader, SQLite3DBParser::getTableReader]",
+    "changedMethods": [
+      "SQLite3DBParser::getTableReader",
+      "SQLite3DBParser::getTableReader"
+    ],
     "packageIdBefore": "org.apache.tika.parser.jdbc",
     "packageIdAfter": "org.apache.tika.parser.jdbc",
     "diffJson": {
@@ -10839,7 +11088,10 @@
     "classFileBefore": "proc/changes/CVE-2018-17197/0c49c851979163334ea05cbebdd11ff87feba62d/before/class/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/SQLite3TableReader.class",
     "classFileAfter": "proc/changes/CVE-2018-17197/0c49c851979163334ea05cbebdd11ff87feba62d/after/class/tika-parsers/src/main/java/org/apache/tika/parser/jdbc/SQLite3TableReader.class",
     "changedClass": "SQLite3TableReader",
-    "changedMethods": "[SQLite3TableReader::SQLite3TableReader, SQLite3TableReader::SQLite3TableReader]",
+    "changedMethods": [
+      "SQLite3TableReader::SQLite3TableReader",
+      "SQLite3TableReader::SQLite3TableReader"
+    ],
     "packageIdBefore": "org.apache.tika.parser.jdbc",
     "packageIdAfter": "org.apache.tika.parser.jdbc",
     "diffJson": {
@@ -10886,7 +11138,9 @@
     "classFileBefore": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/before/class/proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SimpleSslTransportWrapper.class",
     "classFileAfter": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/after/class/proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SimpleSslTransportWrapper.class",
     "changedClass": "SimpleSslTransportWrapper",
-    "changedMethods": "[SimpleSslTransportWrapper::process]",
+    "changedMethods": [
+      "SimpleSslTransportWrapper::process"
+    ],
     "packageIdBefore": "org.apache.qpid.proton.engine.impl.ssl",
     "packageIdAfter": "org.apache.qpid.proton.engine.impl.ssl",
     "diffJson": {
@@ -10945,7 +11199,10 @@
     "classFileBefore": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/before/class/proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslDomainImpl.class",
     "classFileAfter": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/after/class/proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslDomainImpl.class",
     "changedClass": "SslDomainImpl",
-    "changedMethods": "[SslDomainImpl::setPeerAuthentication, SslDomainImpl::getPeerAuthentication]",
+    "changedMethods": [
+      "SslDomainImpl::setPeerAuthentication",
+      "SslDomainImpl::getPeerAuthentication"
+    ],
     "packageIdBefore": "org.apache.qpid.proton.engine.impl.ssl",
     "packageIdAfter": "org.apache.qpid.proton.engine.impl.ssl",
     "diffJson": {
@@ -11020,7 +11277,9 @@
     "classFileBefore": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/before/class/proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslEngineFacadeFactory.class",
     "classFileAfter": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/after/class/proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslEngineFacadeFactory.class",
     "changedClass": "SslEngineFacadeFactory",
-    "changedMethods": "[SslEngineFacadeFactory::createAndInitialiseSslEngine]",
+    "changedMethods": [
+      "SslEngineFacadeFactory::createAndInitialiseSslEngine"
+    ],
     "packageIdBefore": "org.apache.qpid.proton.engine.impl.ssl",
     "packageIdAfter": "org.apache.qpid.proton.engine.impl.ssl",
     "diffJson": {
@@ -11078,7 +11337,9 @@
     "classFileBefore": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/before/class/proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslImpl.class",
     "classFileAfter": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/after/class/proton-j/src/main/java/org/apache/qpid/proton/engine/impl/ssl/SslImpl.class",
     "changedClass": "SslImpl",
-    "changedMethods": "[SslImpl::SslImpl]",
+    "changedMethods": [
+      "SslImpl::SslImpl"
+    ],
     "packageIdBefore": "org.apache.qpid.proton.engine.impl.ssl",
     "packageIdAfter": "org.apache.qpid.proton.engine.impl.ssl",
     "diffJson": {
@@ -11140,7 +11401,9 @@
     "classFileBefore": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/before/class/proton-j/src/main/java/org/apache/qpid/proton/reactor/impl/IOHandler.class",
     "classFileAfter": "proc/changes/CVE-2018-17187/0cb8ca03cec42120dcfc434561592d89a89a805e/after/class/proton-j/src/main/java/org/apache/qpid/proton/reactor/impl/IOHandler.class",
     "changedClass": "IOHandler",
-    "changedMethods": "[IOHandler::Callback]",
+    "changedMethods": [
+      "IOHandler::Callback"
+    ],
     "packageIdBefore": "org.apache.qpid.proton.reactor.impl",
     "packageIdAfter": "org.apache.qpid.proton.reactor.impl",
     "diffJson": {
@@ -11179,7 +11442,10 @@
     "classFileBefore": "proc/changes/CVE-2020-11050/2dbe2d3c4a3ba63a0132a256ccefbfceb69531c9/before/class/src/main/java/org/java_websocket/client/WebSocketClient.class",
     "classFileAfter": "proc/changes/CVE-2020-11050/2dbe2d3c4a3ba63a0132a256ccefbfceb69531c9/after/class/src/main/java/org/java_websocket/client/WebSocketClient.class",
     "changedClass": "WebSocketClient",
-    "changedMethods": "[WebSocketClient::run, WebSocketClient::onSetSSLParameters]",
+    "changedMethods": [
+      "WebSocketClient::run",
+      "WebSocketClient::onSetSSLParameters"
+    ],
     "packageIdBefore": "org.java_websocket.client",
     "packageIdAfter": "org.java_websocket.client",
     "diffJson": {
@@ -11278,7 +11544,14 @@
     "classFileBefore": "proc/changes/CVE-2020-1953/add7375cf37fd316d4838c6c56b054fc293b4641/before/class/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.class",
     "classFileAfter": "proc/changes/CVE-2020-1953/add7375cf37fd316d4838c6c56b054fc293b4641/after/class/src/main/java/org/apache/commons/configuration2/YAMLConfiguration.class",
     "changedClass": "YAMLConfiguration",
-    "changedMethods": "[YAMLConfiguration::read, YAMLConfiguration::createClassLoadingDisablingConstructor, YAMLConfiguration::read, YAMLConfiguration::read, YAMLConfiguration::read, YAMLConfiguration::createYamlForReading]",
+    "changedMethods": [
+      "YAMLConfiguration::read",
+      "YAMLConfiguration::createClassLoadingDisablingConstructor",
+      "YAMLConfiguration::read",
+      "YAMLConfiguration::read",
+      "YAMLConfiguration::read",
+      "YAMLConfiguration::createYamlForReading"
+    ],
     "packageIdBefore": "org.apache.commons.configuration2",
     "packageIdAfter": "org.apache.commons.configuration2",
     "diffJson": {
@@ -11469,7 +11742,10 @@
     "classFileBefore": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/before/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/MongoDbIO.class",
     "classFileAfter": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/after/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/MongoDbIO.class",
     "changedClass": "MongoDbIO",
-    "changedMethods": "[MongoDbIO::getOptions, MongoDbIO::getOptions]",
+    "changedMethods": [
+      "MongoDbIO::getOptions",
+      "MongoDbIO::getOptions"
+    ],
     "packageIdBefore": "org.apache.beam.sdk.io.mongodb",
     "packageIdAfter": "org.apache.beam.sdk.io.mongodb",
     "diffJson": {
@@ -11608,7 +11884,10 @@
     "classFileBefore": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/before/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/MongoDbIO$BoundedMongoDbSource.class",
     "classFileAfter": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/after/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/MongoDbIO$BoundedMongoDbSource.class",
     "changedClass": "MongoDbIO$BoundedMongoDbSource",
-    "changedMethods": "[MongoDbIO::BoundedMongoDbSource::getEstimatedSizeBytes, MongoDbIO::BoundedMongoDbSource::split]",
+    "changedMethods": [
+      "MongoDbIO::BoundedMongoDbSource::getEstimatedSizeBytes",
+      "MongoDbIO::BoundedMongoDbSource::split"
+    ],
     "packageIdBefore": "org.apache.beam.sdk.io.mongodb",
     "packageIdAfter": "org.apache.beam.sdk.io.mongodb",
     "diffJson": {
@@ -11747,7 +12026,9 @@
     "classFileBefore": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/before/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/MongoDbIO$Write$WriteFn.class",
     "classFileAfter": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/after/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/MongoDbIO$Write$WriteFn.class",
     "changedClass": "MongoDbIO$Write$WriteFn",
-    "changedMethods": "[MongoDbIO::Write::WriteFn::createMongoClient]",
+    "changedMethods": [
+      "MongoDbIO::Write::WriteFn::createMongoClient"
+    ],
     "packageIdBefore": "org.apache.beam.sdk.io.mongodb",
     "packageIdAfter": "org.apache.beam.sdk.io.mongodb",
     "diffJson": {
@@ -11886,7 +12167,9 @@
     "classFileBefore": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/before/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/MongoDbIO$BoundedMongoDbReader.class",
     "classFileAfter": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/after/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/MongoDbIO$BoundedMongoDbReader.class",
     "changedClass": "MongoDbIO$BoundedMongoDbReader",
-    "changedMethods": "[MongoDbIO::BoundedMongoDbReader::createClient]",
+    "changedMethods": [
+      "MongoDbIO::BoundedMongoDbReader::createClient"
+    ],
     "packageIdBefore": "org.apache.beam.sdk.io.mongodb",
     "packageIdAfter": "org.apache.beam.sdk.io.mongodb",
     "diffJson": {
@@ -12025,7 +12308,9 @@
     "classFileBefore": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/before/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/SSLUtils.class",
     "classFileAfter": "proc/changes/CVE-2020-1929/a7dd23d95d2d214b4110781b5a28802bd43b834b/after/class/sdks/java/io/mongodb/src/main/java/org/apache/beam/sdk/io/mongodb/SSLUtils.class",
     "changedClass": "SSLUtils",
-    "changedMethods": "[SSLUtils::ignoreSSLCertificate]",
+    "changedMethods": [
+      "SSLUtils::ignoreSSLCertificate"
+    ],
     "packageIdBefore": "org.apache.beam.sdk.io.mongodb",
     "packageIdAfter": "org.apache.beam.sdk.io.mongodb",
     "diffJson": {
@@ -12059,7 +12344,10 @@
     "classFileBefore": "proc/changes/CVE-2020-8929/93d839a5865b9d950dffdc9d0bc99b71280a8899/before/class/java_src/src/main/java/com/google/crypto/tink/PrimitiveSet.class",
     "classFileAfter": "proc/changes/CVE-2020-8929/93d839a5865b9d950dffdc9d0bc99b71280a8899/after/class/java_src/src/main/java/com/google/crypto/tink/PrimitiveSet.class",
     "changedClass": "PrimitiveSet",
-    "changedMethods": "[PrimitiveSet::getPrimitive, PrimitiveSet::addPrimitive]",
+    "changedMethods": [
+      "PrimitiveSet::getPrimitive",
+      "PrimitiveSet::addPrimitive"
+    ],
     "packageIdBefore": "com.google.crypto.tink",
     "packageIdAfter": "com.google.crypto.tink",
     "diffJson": {
@@ -12302,7 +12590,11 @@
     "classFileBefore": "proc/changes/CVE-2020-15250/610155b8c22138329f0723eec22521627dbc52ae/before/class/src/main/java/org/junit/rules/TemporaryFolder.class",
     "classFileAfter": "proc/changes/CVE-2020-15250/610155b8c22138329f0723eec22521627dbc52ae/after/class/src/main/java/org/junit/rules/TemporaryFolder.class",
     "changedClass": "TemporaryFolder",
-    "changedMethods": "[TemporaryFolder::createTemporaryFolderWithFileApi, TemporaryFolder::createTemporaryFolderIn, TemporaryFolder::createTemporaryFolderWithNioApi]",
+    "changedMethods": [
+      "TemporaryFolder::createTemporaryFolderWithFileApi",
+      "TemporaryFolder::createTemporaryFolderIn",
+      "TemporaryFolder::createTemporaryFolderWithNioApi"
+    ],
     "packageIdBefore": "org.junit.rules",
     "packageIdAfter": "org.junit.rules",
     "diffJson": {
@@ -12501,7 +12793,9 @@
     "classFileBefore": "proc/changes/CVE-2020-26259/0bcbf50126a62dfcd65f93a0da0c6d1ae92aa738/before/class/xstream/src/java/com/thoughtworks/xstream/XStream.class",
     "classFileAfter": "proc/changes/CVE-2020-26259/0bcbf50126a62dfcd65f93a0da0c6d1ae92aa738/after/class/xstream/src/java/com/thoughtworks/xstream/XStream.class",
     "changedClass": "XStream",
-    "changedMethods": "[XStream::setupSecurity]",
+    "changedMethods": [
+      "XStream::setupSecurity"
+    ],
     "packageIdBefore": "com.thoughtworks.xstream",
     "packageIdAfter": "com.thoughtworks.xstream",
     "diffJson": {
@@ -12548,7 +12842,9 @@
     "classFileBefore": "proc/changes/CVE-2020-26258/6740c04b217aef02d44fba26402b35e0f6f493ce/before/class/xstream/src/java/com/thoughtworks/xstream/XStream.class",
     "classFileAfter": "proc/changes/CVE-2020-26258/6740c04b217aef02d44fba26402b35e0f6f493ce/after/class/xstream/src/java/com/thoughtworks/xstream/XStream.class",
     "changedClass": "XStream",
-    "changedMethods": "[XStream::setupSecurity]",
+    "changedMethods": [
+      "XStream::setupSecurity"
+    ],
     "packageIdBefore": "com.thoughtworks.xstream",
     "packageIdAfter": "com.thoughtworks.xstream",
     "diffJson": {
@@ -12599,7 +12895,9 @@
     "classFileBefore": "proc/changes/CVE-2020-35460/8eaf4225048ea5ba7e59ef4556dab2098fcc4a1d/before/class/src/main/java/net/sf/mpxj/common/InputStreamHelper.class",
     "classFileAfter": "proc/changes/CVE-2020-35460/8eaf4225048ea5ba7e59ef4556dab2098fcc4a1d/after/class/src/main/java/net/sf/mpxj/common/InputStreamHelper.class",
     "changedClass": "InputStreamHelper",
-    "changedMethods": "[InputStreamHelper::processZipStream]",
+    "changedMethods": [
+      "InputStreamHelper::processZipStream"
+    ],
     "packageIdBefore": "net.sf.mpxj.common",
     "packageIdAfter": "net.sf.mpxj.common",
     "diffJson": {
@@ -12661,7 +12959,9 @@
     "classFileBefore": "proc/changes/CVE-2019-17572/f8f6fbe4aa7f5dee937e688322628c366b12a552/before/class/broker/src/main/java/org/apache/rocketmq/broker/processor/AbstractSendMessageProcessor.class",
     "classFileAfter": "proc/changes/CVE-2019-17572/f8f6fbe4aa7f5dee937e688322628c366b12a552/after/class/broker/src/main/java/org/apache/rocketmq/broker/processor/AbstractSendMessageProcessor.class",
     "changedClass": "AbstractSendMessageProcessor",
-    "changedMethods": "[AbstractSendMessageProcessor::msgCheck]",
+    "changedMethods": [
+      "AbstractSendMessageProcessor::msgCheck"
+    ],
     "packageIdBefore": "org.apache.rocketmq.broker.processor",
     "packageIdAfter": "org.apache.rocketmq.broker.processor",
     "diffJson": {
@@ -12732,7 +13032,11 @@
     "classFileBefore": "proc/changes/CVE-2019-17572/f8f6fbe4aa7f5dee937e688322628c366b12a552/before/class/broker/src/main/java/org/apache/rocketmq/broker/processor/AdminBrokerProcessor.class",
     "classFileAfter": "proc/changes/CVE-2019-17572/f8f6fbe4aa7f5dee937e688322628c366b12a552/after/class/broker/src/main/java/org/apache/rocketmq/broker/processor/AdminBrokerProcessor.class",
     "changedClass": "AdminBrokerProcessor",
-    "changedMethods": "[AdminBrokerProcessor::updateAndCreateTopic, AdminBrokerProcessor::updateAndCreateAccessConfig, AdminBrokerProcessor::updateGlobalWhiteAddrsConfig]",
+    "changedMethods": [
+      "AdminBrokerProcessor::updateAndCreateTopic",
+      "AdminBrokerProcessor::updateAndCreateAccessConfig",
+      "AdminBrokerProcessor::updateGlobalWhiteAddrsConfig"
+    ],
     "packageIdBefore": "org.apache.rocketmq.broker.processor",
     "packageIdAfter": "org.apache.rocketmq.broker.processor",
     "diffJson": {
@@ -12875,7 +13179,9 @@
     "classFileBefore": "proc/changes/CVE-2019-17572/f8f6fbe4aa7f5dee937e688322628c366b12a552/before/class/broker/src/main/java/org/apache/rocketmq/broker/topic/TopicConfigManager.class",
     "classFileAfter": "proc/changes/CVE-2019-17572/f8f6fbe4aa7f5dee937e688322628c366b12a552/after/class/broker/src/main/java/org/apache/rocketmq/broker/topic/TopicConfigManager.class",
     "changedClass": "TopicConfigManager",
-    "changedMethods": "[TopicConfigManager::isTopicCanSendMessage]",
+    "changedMethods": [
+      "TopicConfigManager::isTopicCanSendMessage"
+    ],
     "packageIdBefore": "org.apache.rocketmq.broker.topic",
     "packageIdAfter": "org.apache.rocketmq.broker.topic",
     "diffJson": {
@@ -12917,7 +13223,9 @@
     "classFileBefore": "proc/changes/CVE-2019-13990/a1395ba118df306c7fe67c24fb0c9a95a4473140/before/class/quartz-core/src/main/java/org/quartz/xml/XMLSchedulingDataProcessor.class",
     "classFileAfter": "proc/changes/CVE-2019-13990/a1395ba118df306c7fe67c24fb0c9a95a4473140/after/class/quartz-core/src/main/java/org/quartz/xml/XMLSchedulingDataProcessor.class",
     "changedClass": "XMLSchedulingDataProcessor",
-    "changedMethods": "[XMLSchedulingDataProcessor::initDocumentParser]",
+    "changedMethods": [
+      "XMLSchedulingDataProcessor::initDocumentParser"
+    ],
     "packageIdBefore": "org.quartz.xml",
     "packageIdAfter": "org.quartz.xml",
     "diffJson": {
@@ -12971,7 +13279,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10770/a3cbb13be1527874528c3b99fc33517c0297b6d3/before/class/ratpack-core/src/main/java/ratpack/error/internal/ErrorPageRenderer.class",
     "classFileAfter": "proc/changes/CVE-2019-10770/a3cbb13be1527874528c3b99fc33517c0297b6d3/after/class/ratpack-core/src/main/java/ratpack/error/internal/ErrorPageRenderer.class",
     "changedClass": "ErrorPageRenderer",
-    "changedMethods": "[ErrorPageRenderer::throwable]",
+    "changedMethods": [
+      "ErrorPageRenderer::throwable"
+    ],
     "packageIdBefore": "ratpack.error.internal",
     "packageIdAfter": "ratpack.error.internal",
     "diffJson": {
@@ -13022,7 +13332,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10770/a3cbb13be1527874528c3b99fc33517c0297b6d3/before/class/ratpack-core/src/main/java/ratpack/error/internal/ErrorPageRenderer$BodyWriter.class",
     "classFileAfter": "proc/changes/CVE-2019-10770/a3cbb13be1527874528c3b99fc33517c0297b6d3/after/class/ratpack-core/src/main/java/ratpack/error/internal/ErrorPageRenderer$BodyWriter.class",
     "changedClass": "ErrorPageRenderer$BodyWriter",
-    "changedMethods": "[ErrorPageRenderer::BodyWriter::escapeln]",
+    "changedMethods": [
+      "ErrorPageRenderer::BodyWriter::escapeln"
+    ],
     "packageIdBefore": "ratpack.error.internal",
     "packageIdAfter": "ratpack.error.internal",
     "diffJson": {
@@ -13073,7 +13385,12 @@
     "classFileBefore": "proc/changes/CVE-2019-17638/ff8ae56fa939c3477a0cdd1ff56ce3d902f08fba/before/class/jetty-server/src/main/java/org/eclipse/jetty/server/HttpConnection$SendCallback.class",
     "classFileAfter": "proc/changes/CVE-2019-17638/ff8ae56fa939c3477a0cdd1ff56ce3d902f08fba/after/class/jetty-server/src/main/java/org/eclipse/jetty/server/HttpConnection$SendCallback.class",
     "changedClass": "HttpConnection$SendCallback",
-    "changedMethods": "[HttpConnection::SendCallback::releaseHeader, HttpConnection::SendCallback::release, HttpConnection::SendCallback::releaseChunk, HttpConnection::SendCallback::process]",
+    "changedMethods": [
+      "HttpConnection::SendCallback::releaseHeader",
+      "HttpConnection::SendCallback::release",
+      "HttpConnection::SendCallback::releaseChunk",
+      "HttpConnection::SendCallback::process"
+    ],
     "packageIdBefore": "org.eclipse.jetty.server",
     "packageIdAfter": "org.eclipse.jetty.server",
     "diffJson": {
@@ -13304,7 +13621,9 @@
     "classFileBefore": "proc/changes/CVE-2019-17638/ff8ae56fa939c3477a0cdd1ff56ce3d902f08fba/before/class/jetty-server/src/main/java/org/eclipse/jetty/server/HttpConnection.class",
     "classFileAfter": "proc/changes/CVE-2019-17638/ff8ae56fa939c3477a0cdd1ff56ce3d902f08fba/after/class/jetty-server/src/main/java/org/eclipse/jetty/server/HttpConnection.class",
     "changedClass": "HttpConnection",
-    "changedMethods": "[HttpConnection::onCompleted]",
+    "changedMethods": [
+      "HttpConnection::onCompleted"
+    ],
     "packageIdBefore": "org.eclipse.jetty.server",
     "packageIdAfter": "org.eclipse.jetty.server",
     "diffJson": {
@@ -13535,7 +13854,9 @@
     "classFileBefore": "proc/changes/CVE-2020-5289/7239e47eca00226550300e5e67cdabbf12145ef0/before/class/elide-core/src/main/java/com/yahoo/elide/core/EntityBinding.class",
     "classFileAfter": "proc/changes/CVE-2020-5289/7239e47eca00226550300e5e67cdabbf12145ef0/after/class/elide-core/src/main/java/com/yahoo/elide/core/EntityBinding.class",
     "changedClass": "EntityBinding",
-    "changedMethods": "[EntityBinding::getAnnotation]",
+    "changedMethods": [
+      "EntityBinding::getAnnotation"
+    ],
     "packageIdBefore": "com.yahoo.elide.core",
     "packageIdAfter": "com.yahoo.elide.core",
     "diffJson": {
@@ -13606,7 +13927,25 @@
     "classFileBefore": "proc/changes/CVE-2020-5289/7239e47eca00226550300e5e67cdabbf12145ef0/before/class/elide-core/src/main/java/com/yahoo/elide/core/PersistentResource.class",
     "classFileAfter": "proc/changes/CVE-2020-5289/7239e47eca00226550300e5e67cdabbf12145ef0/after/class/elide-core/src/main/java/com/yahoo/elide/core/PersistentResource.class",
     "changedClass": "PersistentResource",
-    "changedMethods": "[PersistentResource::getRelationChecked, PersistentResource::filter, PersistentResource::getPermissionFilterExpression, PersistentResource::getRelationCheckedFiltered, PersistentResource::getRelation, PersistentResource::clearRelation, PersistentResource::getRelation, PersistentResource::buildIdFilterExpression, PersistentResource::shouldSkipCollection, PersistentResource::checkIncludeSparseField, PersistentResource::filter, PersistentResource::checkFieldAwareDeferPermissions, PersistentResource::updateToOneRelation, PersistentResource::updateToManyRelation, PersistentResource::getRelationUnchecked, PersistentResource::loadRecords, PersistentResource::updateRelation]",
+    "changedMethods": [
+      "PersistentResource::getRelationChecked",
+      "PersistentResource::filter",
+      "PersistentResource::getPermissionFilterExpression",
+      "PersistentResource::getRelationCheckedFiltered",
+      "PersistentResource::getRelation",
+      "PersistentResource::clearRelation",
+      "PersistentResource::getRelation",
+      "PersistentResource::buildIdFilterExpression",
+      "PersistentResource::shouldSkipCollection",
+      "PersistentResource::checkIncludeSparseField",
+      "PersistentResource::filter",
+      "PersistentResource::checkFieldAwareDeferPermissions",
+      "PersistentResource::updateToOneRelation",
+      "PersistentResource::updateToManyRelation",
+      "PersistentResource::getRelationUnchecked",
+      "PersistentResource::loadRecords",
+      "PersistentResource::updateRelation"
+    ],
     "packageIdBefore": "com.yahoo.elide.core",
     "packageIdAfter": "com.yahoo.elide.core",
     "diffJson": {
@@ -13969,7 +14308,9 @@
     "classFileBefore": "proc/changes/CVE-2020-5289/7239e47eca00226550300e5e67cdabbf12145ef0/before/class/elide-core/src/main/java/com/yahoo/elide/core/PersistentResourceSet.class",
     "classFileAfter": "proc/changes/CVE-2020-5289/7239e47eca00226550300e5e67cdabbf12145ef0/after/class/elide-core/src/main/java/com/yahoo/elide/core/PersistentResourceSet.class",
     "changedClass": "PersistentResourceSet",
-    "changedMethods": "[PersistentResourceSet::spliterator]",
+    "changedMethods": [
+      "PersistentResourceSet::spliterator"
+    ],
     "packageIdBefore": "com.yahoo.elide.core",
     "packageIdAfter": "com.yahoo.elide.core",
     "diffJson": {
@@ -14023,7 +14364,9 @@
     "classFileBefore": "proc/changes/CVE-2020-5289/7239e47eca00226550300e5e67cdabbf12145ef0/before/class/elide-core/src/main/java/com/yahoo/elide/core/RequestScope.class",
     "classFileAfter": "proc/changes/CVE-2020-5289/7239e47eca00226550300e5e67cdabbf12145ef0/after/class/elide-core/src/main/java/com/yahoo/elide/core/RequestScope.class",
     "changedClass": "RequestScope",
-    "changedMethods": "[RequestScope::getLoadFilterExpression]",
+    "changedMethods": [
+      "RequestScope::getLoadFilterExpression"
+    ],
     "packageIdBefore": "com.yahoo.elide.core",
     "packageIdAfter": "com.yahoo.elide.core",
     "diffJson": {
@@ -14138,7 +14481,9 @@
     "classFileBefore": "proc/changes/CVE-2019-17555/98d445a87447a5424cf5405a559708323f94d94f/before/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncBatchRequestWrapperImpl$AsyncResponseWrapperImpl.class",
     "classFileAfter": "proc/changes/CVE-2019-17555/98d445a87447a5424cf5405a559708323f94d94f/after/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncBatchRequestWrapperImpl$AsyncResponseWrapperImpl.class",
     "changedClass": "AsyncBatchRequestWrapperImpl$AsyncResponseWrapperImpl",
-    "changedMethods": "[AsyncBatchRequestWrapperImpl::AsyncResponseWrapperImpl::retrieveMonitorDetails]",
+    "changedMethods": [
+      "AsyncBatchRequestWrapperImpl::AsyncResponseWrapperImpl::retrieveMonitorDetails"
+    ],
     "packageIdBefore": "org.apache.olingo.client.core.communication.request",
     "packageIdAfter": "org.apache.olingo.client.core.communication.request",
     "diffJson": {
@@ -14229,7 +14574,11 @@
     "classFileBefore": "proc/changes/CVE-2019-17555/98d445a87447a5424cf5405a559708323f94d94f/before/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncRequestWrapperImpl$AsyncResponseWrapperImpl.class",
     "classFileAfter": "proc/changes/CVE-2019-17555/98d445a87447a5424cf5405a559708323f94d94f/after/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncRequestWrapperImpl$AsyncResponseWrapperImpl.class",
     "changedClass": "AsyncRequestWrapperImpl$AsyncResponseWrapperImpl",
-    "changedMethods": "[AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::getODataResponse, AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::parseReplyAfter, AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::retrieveMonitorDetails]",
+    "changedMethods": [
+      "AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::getODataResponse",
+      "AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::parseReplyAfter",
+      "AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::retrieveMonitorDetails"
+    ],
     "packageIdBefore": "org.apache.olingo.client.core.communication.request",
     "packageIdAfter": "org.apache.olingo.client.core.communication.request",
     "diffJson": {
@@ -14360,7 +14709,10 @@
     "classFileBefore": "proc/changes/CVE-2019-12422/a8018783373ff5e5210225069c9919e071597d5e/before/class/crypto/cipher/src/main/java/org/apache/shiro/crypto/AesCipherService.class",
     "classFileAfter": "proc/changes/CVE-2019-12422/a8018783373ff5e5210225069c9919e071597d5e/after/class/crypto/cipher/src/main/java/org/apache/shiro/crypto/AesCipherService.class",
     "changedClass": "AesCipherService",
-    "changedMethods": "[AesCipherService::createParameterSpec, AesCipherService::AesCipherService]",
+    "changedMethods": [
+      "AesCipherService::createParameterSpec",
+      "AesCipherService::AesCipherService"
+    ],
     "packageIdBefore": "org.apache.shiro.crypto",
     "packageIdAfter": "org.apache.shiro.crypto",
     "diffJson": {
@@ -14479,7 +14831,10 @@
     "classFileBefore": "proc/changes/CVE-2019-12422/a8018783373ff5e5210225069c9919e071597d5e/before/class/crypto/cipher/src/main/java/org/apache/shiro/crypto/JcaCipherService.class",
     "classFileAfter": "proc/changes/CVE-2019-12422/a8018783373ff5e5210225069c9919e071597d5e/after/class/crypto/cipher/src/main/java/org/apache/shiro/crypto/JcaCipherService.class",
     "changedClass": "JcaCipherService",
-    "changedMethods": "[JcaCipherService::initNewCipher, JcaCipherService::createParameterSpec]",
+    "changedMethods": [
+      "JcaCipherService::initNewCipher",
+      "JcaCipherService::createParameterSpec"
+    ],
     "packageIdBefore": "org.apache.shiro.crypto",
     "packageIdAfter": "org.apache.shiro.crypto",
     "diffJson": {
@@ -14542,7 +14897,9 @@
     "classFileBefore": "proc/changes/CVE-2020-1925/9f9aebde557b791f275d6156d8bec12ac334425d/before/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncBatchRequestWrapperImpl$AsyncResponseWrapperImpl.class",
     "classFileAfter": "proc/changes/CVE-2020-1925/9f9aebde557b791f275d6156d8bec12ac334425d/after/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncBatchRequestWrapperImpl$AsyncResponseWrapperImpl.class",
     "changedClass": "AsyncBatchRequestWrapperImpl$AsyncResponseWrapperImpl",
-    "changedMethods": "[AsyncBatchRequestWrapperImpl::AsyncResponseWrapperImpl::retrieveMonitorDetails]",
+    "changedMethods": [
+      "AsyncBatchRequestWrapperImpl::AsyncResponseWrapperImpl::retrieveMonitorDetails"
+    ],
     "packageIdBefore": "org.apache.olingo.client.core.communication.request",
     "packageIdAfter": "org.apache.olingo.client.core.communication.request",
     "diffJson": {
@@ -14581,7 +14938,10 @@
     "classFileBefore": "proc/changes/CVE-2020-1925/9f9aebde557b791f275d6156d8bec12ac334425d/before/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncRequestWrapperImpl$AsyncResponseWrapperImpl.class",
     "classFileAfter": "proc/changes/CVE-2020-1925/9f9aebde557b791f275d6156d8bec12ac334425d/after/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncRequestWrapperImpl$AsyncResponseWrapperImpl.class",
     "changedClass": "AsyncRequestWrapperImpl$AsyncResponseWrapperImpl",
-    "changedMethods": "[AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::createLocation, AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::retrieveMonitorDetails]",
+    "changedMethods": [
+      "AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::createLocation",
+      "AsyncRequestWrapperImpl::AsyncResponseWrapperImpl::retrieveMonitorDetails"
+    ],
     "packageIdBefore": "org.apache.olingo.client.core.communication.request",
     "packageIdAfter": "org.apache.olingo.client.core.communication.request",
     "diffJson": {
@@ -14692,7 +15052,10 @@
     "classFileBefore": "proc/changes/CVE-2020-1925/9f9aebde557b791f275d6156d8bec12ac334425d/before/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncRequestWrapperImpl.class",
     "classFileAfter": "proc/changes/CVE-2020-1925/9f9aebde557b791f275d6156d8bec12ac334425d/after/class/lib/client-core/src/main/java/org/apache/olingo/client/core/communication/request/AsyncRequestWrapperImpl.class",
     "changedClass": "AsyncRequestWrapperImpl",
-    "changedMethods": "[AsyncRequestWrapperImpl::AsyncRequestWrapperImpl, AsyncRequestWrapperImpl::checkLocation]",
+    "changedMethods": [
+      "AsyncRequestWrapperImpl::AsyncRequestWrapperImpl",
+      "AsyncRequestWrapperImpl::checkLocation"
+    ],
     "packageIdBefore": "org.apache.olingo.client.core.communication.request",
     "packageIdAfter": "org.apache.olingo.client.core.communication.request",
     "diffJson": {
@@ -14803,7 +15166,11 @@
     "classFileBefore": "proc/changes/CVE-2019-17556/db50f59689155d8055e268863689771c3536d0e0/before/class/ext/client-proxy/src/main/java/org/apache/olingo/ext/proxy/AbstractService.class",
     "classFileAfter": "proc/changes/CVE-2019-17556/db50f59689155d8055e268863689771c3536d0e0/after/class/ext/client-proxy/src/main/java/org/apache/olingo/ext/proxy/AbstractService.class",
     "changedClass": "AbstractService",
-    "changedMethods": "[AbstractService::createObjectInputStream, AbstractService::getAllowedClasses, AbstractService::AbstractService]",
+    "changedMethods": [
+      "AbstractService::createObjectInputStream",
+      "AbstractService::getAllowedClasses",
+      "AbstractService::AbstractService"
+    ],
     "packageIdBefore": "org.apache.olingo.ext.proxy",
     "packageIdAfter": "org.apache.olingo.ext.proxy",
     "diffJson": {
@@ -15038,7 +15405,11 @@
     "classFileBefore": "proc/changes/CVE-2020-1963/02b0439639a9dab264cdb3ed4081c231e0079c13/before/class/modules/core/src/main/java/org/apache/ignite/internal/cluster/DistributedBaselineConfiguration.class",
     "classFileAfter": "proc/changes/CVE-2020-1963/02b0439639a9dab264cdb3ed4081c231e0079c13/after/class/modules/core/src/main/java/org/apache/ignite/internal/cluster/DistributedBaselineConfiguration.class",
     "changedClass": "DistributedBaselineConfiguration",
-    "changedMethods": "[DistributedBaselineConfiguration::setDefaultValue, DistributedBaselineConfiguration::DistributedBaselineConfiguration, DistributedBaselineConfiguration::makeUpdateListener]",
+    "changedMethods": [
+      "DistributedBaselineConfiguration::setDefaultValue",
+      "DistributedBaselineConfiguration::DistributedBaselineConfiguration",
+      "DistributedBaselineConfiguration::makeUpdateListener"
+    ],
     "packageIdBefore": "org.apache.ignite.internal.cluster",
     "packageIdAfter": "org.apache.ignite.internal.cluster",
     "diffJson": {
@@ -15245,7 +15616,15 @@
     "classFileBefore": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/before/class/src/org/apache/xerces/impl/dtd/DTDGrammar$QNameHashtable.class",
     "classFileAfter": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/after/class/src/org/apache/xerces/impl/dtd/DTDGrammar$QNameHashtable.class",
     "changedClass": "DTDGrammar$QNameHashtable",
-    "changedMethods": "[DTDGrammar::QNameHashtable::get, DTDGrammar::QNameHashtable::rehash, DTDGrammar::QNameHashtable::hash, DTDGrammar::QNameHashtable::put, DTDGrammar::QNameHashtable::hash0, DTDGrammar::QNameHashtable::rebalance, DTDGrammar::QNameHashtable::rehashCommon]",
+    "changedMethods": [
+      "DTDGrammar::QNameHashtable::get",
+      "DTDGrammar::QNameHashtable::rehash",
+      "DTDGrammar::QNameHashtable::hash",
+      "DTDGrammar::QNameHashtable::put",
+      "DTDGrammar::QNameHashtable::hash0",
+      "DTDGrammar::QNameHashtable::rebalance",
+      "DTDGrammar::QNameHashtable::rehashCommon"
+    ],
     "packageIdBefore": "org.apache.xerces.impl.dtd",
     "packageIdAfter": "org.apache.xerces.impl.dtd",
     "diffJson": {
@@ -15860,7 +16239,12 @@
     "classFileBefore": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/before/class/src/org/apache/xerces/util/SoftReferenceSymbolTable.class",
     "classFileAfter": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/after/class/src/org/apache/xerces/util/SoftReferenceSymbolTable.class",
     "changedClass": "SoftReferenceSymbolTable",
-    "changedMethods": "[SoftReferenceSymbolTable::rebalance, SoftReferenceSymbolTable::addSymbol, SoftReferenceSymbolTable::addSymbol, SoftReferenceSymbolTable::rehashCommon]",
+    "changedMethods": [
+      "SoftReferenceSymbolTable::rebalance",
+      "SoftReferenceSymbolTable::addSymbol",
+      "SoftReferenceSymbolTable::addSymbol",
+      "SoftReferenceSymbolTable::rehashCommon"
+    ],
     "packageIdBefore": "org.apache.xerces.util",
     "packageIdAfter": "org.apache.xerces.util",
     "diffJson": {
@@ -16035,7 +16419,17 @@
     "classFileBefore": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/before/class/src/org/apache/xerces/util/SymbolHash.class",
     "classFileAfter": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/after/class/src/org/apache/xerces/util/SymbolHash.class",
     "changedClass": "SymbolHash",
-    "changedMethods": "[SymbolHash::makeClone, SymbolHash::hash, SymbolHash::hash0, SymbolHash::SymbolHash, SymbolHash::clear, SymbolHash::rebalance, SymbolHash::rehashCommon, SymbolHash::rehash, SymbolHash::put]",
+    "changedMethods": [
+      "SymbolHash::makeClone",
+      "SymbolHash::hash",
+      "SymbolHash::hash0",
+      "SymbolHash::SymbolHash",
+      "SymbolHash::clear",
+      "SymbolHash::rebalance",
+      "SymbolHash::rehashCommon",
+      "SymbolHash::rehash",
+      "SymbolHash::put"
+    ],
     "packageIdBefore": "org.apache.xerces.util",
     "packageIdAfter": "org.apache.xerces.util",
     "diffJson": {
@@ -16478,7 +16872,18 @@
     "classFileBefore": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/before/class/src/org/apache/xerces/util/SymbolTable.class",
     "classFileAfter": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/after/class/src/org/apache/xerces/util/SymbolTable.class",
     "changedClass": "SymbolTable",
-    "changedMethods": "[SymbolTable::hash, SymbolTable::hash0, SymbolTable::rehashCommon, SymbolTable::SymbolTable, SymbolTable::addSymbol, SymbolTable::hash0, SymbolTable::rehash, SymbolTable::rebalance, SymbolTable::addSymbol, SymbolTable::hash]",
+    "changedMethods": [
+      "SymbolTable::hash",
+      "SymbolTable::hash0",
+      "SymbolTable::rehashCommon",
+      "SymbolTable::SymbolTable",
+      "SymbolTable::addSymbol",
+      "SymbolTable::hash0",
+      "SymbolTable::rehash",
+      "SymbolTable::rebalance",
+      "SymbolTable::addSymbol",
+      "SymbolTable::hash"
+    ],
     "packageIdBefore": "org.apache.xerces.util",
     "packageIdAfter": "org.apache.xerces.util",
     "diffJson": {
@@ -16885,7 +17290,23 @@
     "classFileBefore": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/before/class/src/org/apache/xerces/util/XMLAttributesImpl.class",
     "classFileAfter": "proc/changes/CVE-2012-0881/992b5d9c24102ad20330d36c0a71162753a37449/after/class/src/org/apache/xerces/util/XMLAttributesImpl.class",
     "changedClass": "XMLAttributesImpl",
-    "changedMethods": "[XMLAttributesImpl::prepareAndPopulateTableViewNS, XMLAttributesImpl::hash, XMLAttributesImpl::getTableViewBucket, XMLAttributesImpl::hash, XMLAttributesImpl::hash0, XMLAttributesImpl::prepareAndPopulateTableView, XMLAttributesImpl::rebalanceTableView, XMLAttributesImpl::rebalanceTableViewNS, XMLAttributesImpl::prepareTableView, XMLAttributesImpl::checkManyDuplicatesNS, XMLAttributesImpl::checkDuplicatesNS, XMLAttributesImpl::addAttribute, XMLAttributesImpl::growTableView, XMLAttributesImpl::prepareAndPopulateTableView, XMLAttributesImpl::getTableViewBucket]",
+    "changedMethods": [
+      "XMLAttributesImpl::prepareAndPopulateTableViewNS",
+      "XMLAttributesImpl::hash",
+      "XMLAttributesImpl::getTableViewBucket",
+      "XMLAttributesImpl::hash",
+      "XMLAttributesImpl::hash0",
+      "XMLAttributesImpl::prepareAndPopulateTableView",
+      "XMLAttributesImpl::rebalanceTableView",
+      "XMLAttributesImpl::rebalanceTableViewNS",
+      "XMLAttributesImpl::prepareTableView",
+      "XMLAttributesImpl::checkManyDuplicatesNS",
+      "XMLAttributesImpl::checkDuplicatesNS",
+      "XMLAttributesImpl::addAttribute",
+      "XMLAttributesImpl::growTableView",
+      "XMLAttributesImpl::prepareAndPopulateTableView",
+      "XMLAttributesImpl::getTableViewBucket"
+    ],
     "packageIdBefore": "org.apache.xerces.util",
     "packageIdAfter": "org.apache.xerces.util",
     "diffJson": {
@@ -17896,7 +18317,10 @@
     "classFileBefore": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/before/class/agent/core/src/main/java/org/jolokia/backend/BackendManager.class",
     "classFileAfter": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/after/class/agent/core/src/main/java/org/jolokia/backend/BackendManager.class",
     "changedClass": "BackendManager",
-    "changedMethods": "[BackendManager::isOriginAllowed, BackendManager::isOriginAllowed]",
+    "changedMethods": [
+      "BackendManager::isOriginAllowed",
+      "BackendManager::isOriginAllowed"
+    ],
     "packageIdBefore": "org.jolokia.backend",
     "packageIdAfter": "org.jolokia.backend",
     "diffJson": {
@@ -17959,7 +18383,9 @@
     "classFileBefore": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/before/class/agent/core/src/main/java/org/jolokia/http/AgentServlet.class",
     "classFileAfter": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/after/class/agent/core/src/main/java/org/jolokia/http/AgentServlet.class",
     "changedClass": "AgentServlet",
-    "changedMethods": "[AgentServlet::doOptions]",
+    "changedMethods": [
+      "AgentServlet::doOptions"
+    ],
     "packageIdBefore": "org.jolokia.http",
     "packageIdAfter": "org.jolokia.http",
     "diffJson": {
@@ -17994,7 +18420,10 @@
     "classFileBefore": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/before/class/agent/core/src/main/java/org/jolokia/http/HttpRequestHandler.class",
     "classFileAfter": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/after/class/agent/core/src/main/java/org/jolokia/http/HttpRequestHandler.class",
     "changedClass": "HttpRequestHandler",
-    "changedMethods": "[HttpRequestHandler::checkAccess, HttpRequestHandler::handleCorsPreflightRequest]",
+    "changedMethods": [
+      "HttpRequestHandler::checkAccess",
+      "HttpRequestHandler::handleCorsPreflightRequest"
+    ],
     "packageIdBefore": "org.jolokia.http",
     "packageIdAfter": "org.jolokia.http",
     "diffJson": {
@@ -18053,7 +18482,10 @@
     "classFileBefore": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/before/class/agent/core/src/main/java/org/jolokia/restrictor/AbstractConstantRestrictor.class",
     "classFileAfter": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/after/class/agent/core/src/main/java/org/jolokia/restrictor/AbstractConstantRestrictor.class",
     "changedClass": "AbstractConstantRestrictor",
-    "changedMethods": "[AbstractConstantRestrictor::isOriginAllowed, AbstractConstantRestrictor::isOriginAllowed]",
+    "changedMethods": [
+      "AbstractConstantRestrictor::isOriginAllowed",
+      "AbstractConstantRestrictor::isOriginAllowed"
+    ],
     "packageIdBefore": "org.jolokia.restrictor",
     "packageIdAfter": "org.jolokia.restrictor",
     "diffJson": {
@@ -18088,7 +18520,11 @@
     "classFileBefore": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/before/class/agent/core/src/main/java/org/jolokia/restrictor/PolicyRestrictor.class",
     "classFileAfter": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/after/class/agent/core/src/main/java/org/jolokia/restrictor/PolicyRestrictor.class",
     "changedClass": "PolicyRestrictor",
-    "changedMethods": "[PolicyRestrictor::isOriginAllowed, PolicyRestrictor::isOriginAllowed, PolicyRestrictor::isAttributeReadAllowed]",
+    "changedMethods": [
+      "PolicyRestrictor::isOriginAllowed",
+      "PolicyRestrictor::isOriginAllowed",
+      "PolicyRestrictor::isAttributeReadAllowed"
+    ],
     "packageIdBefore": "org.jolokia.restrictor",
     "packageIdAfter": "org.jolokia.restrictor",
     "diffJson": {
@@ -18139,7 +18575,10 @@
     "classFileBefore": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/before/class/agent/core/src/main/java/org/jolokia/restrictor/policy/CorsChecker.class",
     "classFileAfter": "proc/changes/CVE-2018-10899/ec1cebda618e68d12c9b1906820564408cf950e1/after/class/agent/core/src/main/java/org/jolokia/restrictor/policy/CorsChecker.class",
     "changedClass": "CorsChecker",
-    "changedMethods": "[CorsChecker::check, CorsChecker::check]",
+    "changedMethods": [
+      "CorsChecker::check",
+      "CorsChecker::check"
+    ],
     "packageIdBefore": "org.jolokia.restrictor.policy",
     "packageIdAfter": "org.jolokia.restrictor.policy",
     "diffJson": {
@@ -18218,7 +18657,9 @@
     "classFileBefore": "proc/changes/CVE-2013-6397/da34b18cb3092df4972e2b6fa5178d1059923910/before/class/solr/core/src/java/org/apache/solr/cloud/ZkSolrResourceLoader.class",
     "classFileAfter": "proc/changes/CVE-2013-6397/da34b18cb3092df4972e2b6fa5178d1059923910/after/class/solr/core/src/java/org/apache/solr/cloud/ZkSolrResourceLoader.class",
     "changedClass": "ZkSolrResourceLoader",
-    "changedMethods": "[ZkSolrResourceLoader::openResource]",
+    "changedMethods": [
+      "ZkSolrResourceLoader::openResource"
+    ],
     "packageIdBefore": "org.apache.solr.cloud",
     "packageIdAfter": "org.apache.solr.cloud",
     "diffJson": {
@@ -18265,7 +18706,10 @@
     "classFileBefore": "proc/changes/CVE-2013-6397/da34b18cb3092df4972e2b6fa5178d1059923910/before/class/solr/core/src/java/org/apache/solr/core/SolrResourceLoader.class",
     "classFileAfter": "proc/changes/CVE-2013-6397/da34b18cb3092df4972e2b6fa5178d1059923910/after/class/solr/core/src/java/org/apache/solr/core/SolrResourceLoader.class",
     "changedClass": "SolrResourceLoader",
-    "changedMethods": "[SolrResourceLoader::openResource, SolrResourceLoader::getConfigDir]",
+    "changedMethods": [
+      "SolrResourceLoader::openResource",
+      "SolrResourceLoader::getConfigDir"
+    ],
     "packageIdBefore": "org.apache.solr.core",
     "packageIdAfter": "org.apache.solr.core",
     "diffJson": {
@@ -18476,7 +18920,9 @@
     "classFileBefore": "proc/changes/CVE-2019-1003005/35119273101af26792457ec177f34f6f4fa49d99/before/class/src/main/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/SecureGroovyScript$DescriptorImpl.class",
     "classFileAfter": "proc/changes/CVE-2019-1003005/35119273101af26792457ec177f34f6f4fa49d99/after/class/src/main/java/org/jenkinsci/plugins/scriptsecurity/sandbox/groovy/SecureGroovyScript$DescriptorImpl.class",
     "changedClass": "SecureGroovyScript$DescriptorImpl",
-    "changedMethods": "[SecureGroovyScript::DescriptorImpl::doCheckScript]",
+    "changedMethods": [
+      "SecureGroovyScript::DescriptorImpl::doCheckScript"
+    ],
     "packageIdBefore": "org.jenkinsci.plugins.scriptsecurity.sandbox.groovy",
     "packageIdAfter": "org.jenkinsci.plugins.scriptsecurity.sandbox.groovy",
     "diffJson": {
@@ -18523,7 +18969,9 @@
     "classFileBefore": "proc/changes/CVE-2018-1002200/58bc24e465c0842981692adbf6d75680298989de/before/class/src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.class",
     "classFileAfter": "proc/changes/CVE-2018-1002200/58bc24e465c0842981692adbf6d75680298989de/after/class/src/main/java/org/codehaus/plexus/archiver/AbstractUnArchiver.class",
     "changedClass": "AbstractUnArchiver",
-    "changedMethods": "[AbstractUnArchiver::extractFile]",
+    "changedMethods": [
+      "AbstractUnArchiver::extractFile"
+    ],
     "packageIdBefore": "org.codehaus.plexus.archiver",
     "packageIdAfter": "org.codehaus.plexus.archiver",
     "diffJson": {
@@ -18585,7 +19033,9 @@
     "classFileBefore": "proc/changes/CVE-2018-1309/28067a29fd13cdf8e21b440fc65c6dd67872522f/before/class/nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/SplitXml.class",
     "classFileAfter": "proc/changes/CVE-2018-1309/28067a29fd13cdf8e21b440fc65c6dd67872522f/after/class/nifi-nar-bundles/nifi-standard-bundle/nifi-standard-processors/src/main/java/org/apache/nifi/processors/standard/SplitXml.class",
     "changedClass": "SplitXml",
-    "changedMethods": "[SplitXml::onTrigger]",
+    "changedMethods": [
+      "SplitXml::onTrigger"
+    ],
     "packageIdBefore": "org.apache.nifi.processors.standard",
     "packageIdAfter": "org.apache.nifi.processors.standard",
     "diffJson": {
@@ -18708,7 +19158,12 @@
     "classFileBefore": "proc/changes/CVE-2018-1000129/5895d5c137c335e6b473e9dcb9baf748851bbc5f/before/class/agent/core/src/main/java/org/jolokia/http/AgentServlet.class",
     "classFileAfter": "proc/changes/CVE-2018-1000129/5895d5c137c335e6b473e9dcb9baf748851bbc5f/after/class/agent/core/src/main/java/org/jolokia/http/AgentServlet.class",
     "changedClass": "AgentServlet",
-    "changedMethods": "[AgentServlet::handle, AgentServlet::getMimeType, AgentServlet::validateCallbackIfGiven, AgentServlet::sendResponse]",
+    "changedMethods": [
+      "AgentServlet::handle",
+      "AgentServlet::getMimeType",
+      "AgentServlet::validateCallbackIfGiven",
+      "AgentServlet::sendResponse"
+    ],
     "packageIdBefore": "org.jolokia.http",
     "packageIdAfter": "org.jolokia.http",
     "diffJson": {
@@ -18863,7 +19318,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10463/b6e55709476d9f6dfaf75a4cd744fe1798868168/before/class/src/main/java/com/dynatrace/jenkins/dashboard/TAGlobalConfiguration.class",
     "classFileAfter": "proc/changes/CVE-2019-10463/b6e55709476d9f6dfaf75a4cd744fe1798868168/after/class/src/main/java/com/dynatrace/jenkins/dashboard/TAGlobalConfiguration.class",
     "changedClass": "TAGlobalConfiguration",
-    "changedMethods": "[TAGlobalConfiguration::doTestDynatraceConnection]",
+    "changedMethods": [
+      "TAGlobalConfiguration::doTestDynatraceConnection"
+    ],
     "packageIdBefore": "com.dynatrace.jenkins.dashboard",
     "packageIdAfter": "com.dynatrace.jenkins.dashboard",
     "diffJson": {
@@ -18918,7 +19375,9 @@
     "classFileBefore": "proc/changes/CVE-2017-12197/84f32f4001fc6bdcc125ccc959081de022d18b6d/before/class/src/main/java/org/jvnet/libpam/PAM.class",
     "classFileAfter": "proc/changes/CVE-2017-12197/84f32f4001fc6bdcc125ccc959081de022d18b6d/after/class/src/main/java/org/jvnet/libpam/PAM.class",
     "changedClass": "PAM",
-    "changedMethods": "[PAM::authenticate]",
+    "changedMethods": [
+      "PAM::authenticate"
+    ],
     "packageIdBefore": "org.jvnet.libpam",
     "packageIdAfter": "org.jvnet.libpam",
     "diffJson": {
@@ -18957,7 +19416,10 @@
     "classFileBefore": "proc/changes/CVE-2015-5531/df1427a2935237fb61fc641984f9c76478627fec/before/class/src/main/java/org/elasticsearch/env/Environment.class",
     "classFileAfter": "proc/changes/CVE-2015-5531/df1427a2935237fb61fc641984f9c76478627fec/after/class/src/main/java/org/elasticsearch/env/Environment.class",
     "changedClass": "Environment",
-    "changedMethods": "[Environment::resolveRepoURL, Environment::resolve]",
+    "changedMethods": [
+      "Environment::resolveRepoURL",
+      "Environment::resolve"
+    ],
     "packageIdBefore": "org.elasticsearch.env",
     "packageIdAfter": "org.elasticsearch.env",
     "diffJson": {
@@ -19211,7 +19673,11 @@
     "classFileBefore": "proc/changes/CVE-2015-5531/df1427a2935237fb61fc641984f9c76478627fec/before/class/src/main/java/org/elasticsearch/repositories/uri/URLRepository.class",
     "classFileAfter": "proc/changes/CVE-2015-5531/df1427a2935237fb61fc641984f9c76478627fec/after/class/src/main/java/org/elasticsearch/repositories/uri/URLRepository.class",
     "changedClass": "URLRepository",
-    "changedMethods": "[URLRepository::URLRepository, URLRepository::URLRepository, URLRepository::checkURL]",
+    "changedMethods": [
+      "URLRepository::URLRepository",
+      "URLRepository::URLRepository",
+      "URLRepository::checkURL"
+    ],
     "packageIdBefore": "org.elasticsearch.repositories.uri",
     "packageIdAfter": "org.elasticsearch.repositories.uri",
     "diffJson": {
@@ -19478,7 +19944,9 @@
     "classFileBefore": "proc/changes/CVE-2013-6430/7a7df6637478607bef0277bf52a4e0a03e20a248/before/class/org.springframework.web/src/main/java/org/springframework/web/util/JavaScriptUtils.class",
     "classFileAfter": "proc/changes/CVE-2013-6430/7a7df6637478607bef0277bf52a4e0a03e20a248/after/class/org.springframework.web/src/main/java/org/springframework/web/util/JavaScriptUtils.class",
     "changedClass": "JavaScriptUtils",
-    "changedMethods": "[JavaScriptUtils::javaScriptEscape]",
+    "changedMethods": [
+      "JavaScriptUtils::javaScriptEscape"
+    ],
     "packageIdBefore": "org.springframework.web.util",
     "packageIdAfter": "org.springframework.web.util",
     "diffJson": {
@@ -19645,7 +20113,10 @@
     "classFileBefore": "proc/changes/CVE-2015-5258/5151e1158e1ed51369e7aba9e8092930d28c31d3/before/class/spring-social-core/src/main/java/org/springframework/social/support/ClientHttpRequestFactorySelector$HttpComponentsClientRequestFactoryCreator.class",
     "classFileAfter": "proc/changes/CVE-2015-5258/5151e1158e1ed51369e7aba9e8092930d28c31d3/after/class/spring-social-core/src/main/java/org/springframework/social/support/ClientHttpRequestFactorySelector$HttpComponentsClientRequestFactoryCreator.class",
     "changedClass": "ClientHttpRequestFactorySelector$HttpComponentsClientRequestFactoryCreator",
-    "changedMethods": "[ClientHttpRequestFactorySelector::HttpComponentsClientRequestFactoryCreator::getSSLContext, ClientHttpRequestFactorySelector::HttpComponentsClientRequestFactoryCreator::getAllTrustClient]",
+    "changedMethods": [
+      "ClientHttpRequestFactorySelector::HttpComponentsClientRequestFactoryCreator::getSSLContext",
+      "ClientHttpRequestFactorySelector::HttpComponentsClientRequestFactoryCreator::getAllTrustClient"
+    ],
     "packageIdBefore": "org.springframework.social.support",
     "packageIdAfter": "org.springframework.social.support",
     "diffJson": {
@@ -19892,7 +20363,13 @@
     "classFileBefore": "proc/changes/CVE-2013-2035/92c266170ce98edc200c656bd034a237098b8aa5/before/class/hawtjni-runtime/src/main/java/org/fusesource/hawtjni/runtime/Library.class",
     "classFileAfter": "proc/changes/CVE-2013-2035/92c266170ce98edc200c656bd034a237098b8aa5/after/class/hawtjni-runtime/src/main/java/org/fusesource/hawtjni/runtime/Library.class",
     "changedClass": "Library",
-    "changedMethods": "[Library::isStale, Library::extract, Library::extract, Library::close, Library::exractAndLoad]",
+    "changedMethods": [
+      "Library::isStale",
+      "Library::extract",
+      "Library::extract",
+      "Library::close",
+      "Library::exractAndLoad"
+    ],
     "packageIdBefore": "org.fusesource.hawtjni.runtime",
     "packageIdAfter": "org.fusesource.hawtjni.runtime",
     "diffJson": {
@@ -20235,7 +20712,13 @@
     "classFileBefore": "proc/changes/CVE-2014-1972/95846b173d83c2eb42db75dae3e7d5e13a633946/before/class/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ClientDataEncoderImpl.class",
     "classFileAfter": "proc/changes/CVE-2014-1972/95846b173d83c2eb42db75dae3e7d5e13a633946/after/class/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ClientDataEncoderImpl.class",
     "changedClass": "ClientDataEncoderImpl",
-    "changedMethods": "[ClientDataEncoderImpl::validateHMAC, ClientDataEncoderImpl::decodeClientData, ClientDataEncoderImpl::ClientDataEncoderImpl, ClientDataEncoderImpl::ClientDataEncoderImpl, ClientDataEncoderImpl::createSink]",
+    "changedMethods": [
+      "ClientDataEncoderImpl::validateHMAC",
+      "ClientDataEncoderImpl::decodeClientData",
+      "ClientDataEncoderImpl::ClientDataEncoderImpl",
+      "ClientDataEncoderImpl::ClientDataEncoderImpl",
+      "ClientDataEncoderImpl::createSink"
+    ],
     "packageIdBefore": "org.apache.tapestry5.internal.services",
     "packageIdAfter": "org.apache.tapestry5.internal.services",
     "diffJson": {
@@ -20574,7 +21057,11 @@
     "classFileBefore": "proc/changes/CVE-2014-1972/95846b173d83c2eb42db75dae3e7d5e13a633946/before/class/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ClientDataSinkImpl.class",
     "classFileAfter": "proc/changes/CVE-2014-1972/95846b173d83c2eb42db75dae3e7d5e13a633946/after/class/tapestry-core/src/main/java/org/apache/tapestry5/internal/services/ClientDataSinkImpl.class",
     "changedClass": "ClientDataSinkImpl",
-    "changedMethods": "[ClientDataSinkImpl::ClientDataSinkImpl, ClientDataSinkImpl::getClientData, ClientDataSinkImpl::ClientDataSinkImpl]",
+    "changedMethods": [
+      "ClientDataSinkImpl::ClientDataSinkImpl",
+      "ClientDataSinkImpl::getClientData",
+      "ClientDataSinkImpl::ClientDataSinkImpl"
+    ],
     "packageIdBefore": "org.apache.tapestry5.internal.services",
     "packageIdAfter": "org.apache.tapestry5.internal.services",
     "diffJson": {
@@ -20677,7 +21164,9 @@
     "classFileBefore": "proc/changes/CVE-2014-1972/95846b173d83c2eb42db75dae3e7d5e13a633946/before/class/tapestry-core/src/main/java/org/apache/tapestry5/services/TapestryModule.class",
     "classFileAfter": "proc/changes/CVE-2014-1972/95846b173d83c2eb42db75dae3e7d5e13a633946/after/class/tapestry-core/src/main/java/org/apache/tapestry5/services/TapestryModule.class",
     "changedClass": "TapestryModule",
-    "changedMethods": "[TapestryModule::contributeFactoryDefaults]",
+    "changedMethods": [
+      "TapestryModule::contributeFactoryDefaults"
+    ],
     "packageIdBefore": "org.apache.tapestry5.services",
     "packageIdAfter": "org.apache.tapestry5.services",
     "diffJson": {
@@ -20719,7 +21208,9 @@
     "classFileBefore": "proc/changes/CVE-2016-4437/64d9f8341e1aa7ef1a29744e16ea7c578ca5deee/before/class/core/src/main/java/org/apache/shiro/mgt/AbstractRememberMeManager.class",
     "classFileAfter": "proc/changes/CVE-2016-4437/64d9f8341e1aa7ef1a29744e16ea7c578ca5deee/after/class/core/src/main/java/org/apache/shiro/mgt/AbstractRememberMeManager.class",
     "changedClass": "AbstractRememberMeManager",
-    "changedMethods": "[AbstractRememberMeManager::AbstractRememberMeManager]",
+    "changedMethods": [
+      "AbstractRememberMeManager::AbstractRememberMeManager"
+    ],
     "packageIdBefore": "org.apache.shiro.mgt",
     "packageIdAfter": "org.apache.shiro.mgt",
     "diffJson": {
@@ -20810,7 +21301,9 @@
     "classFileBefore": "proc/changes/CVE-2019-0226/fe3bc4108e5a8b3c804e5da91ec0d5695588eb25/before/class/config/src/main/java/org/apache/karaf/config/command/InstallCommand.class",
     "classFileAfter": "proc/changes/CVE-2019-0226/fe3bc4108e5a8b3c804e5da91ec0d5695588eb25/after/class/config/src/main/java/org/apache/karaf/config/command/InstallCommand.class",
     "changedClass": "InstallCommand",
-    "changedMethods": "[InstallCommand::execute]",
+    "changedMethods": [
+      "InstallCommand::execute"
+    ],
     "packageIdBefore": "org.apache.karaf.config.command",
     "packageIdAfter": "org.apache.karaf.config.command",
     "diffJson": {
@@ -20848,7 +21341,9 @@
     "classFileBefore": "proc/changes/CVE-2019-0226/fe3bc4108e5a8b3c804e5da91ec0d5695588eb25/before/class/config/src/main/java/org/apache/karaf/config/core/impl/ConfigMBeanImpl.class",
     "classFileAfter": "proc/changes/CVE-2019-0226/fe3bc4108e5a8b3c804e5da91ec0d5695588eb25/after/class/config/src/main/java/org/apache/karaf/config/core/impl/ConfigMBeanImpl.class",
     "changedClass": "ConfigMBeanImpl",
-    "changedMethods": "[ConfigMBeanImpl::install]",
+    "changedMethods": [
+      "ConfigMBeanImpl::install"
+    ],
     "packageIdBefore": "org.apache.karaf.config.core.impl",
     "packageIdAfter": "org.apache.karaf.config.core.impl",
     "diffJson": {
@@ -20886,7 +21381,9 @@
     "classFileBefore": "proc/changes/CVE-2017-3586/aeba57264966b0fd329cdb8170ba772fd8fd4de2/before/class/src/com/mysql/jdbc/ExportControlled.class",
     "classFileAfter": "proc/changes/CVE-2017-3586/aeba57264966b0fd329cdb8170ba772fd8fd4de2/after/class/src/com/mysql/jdbc/ExportControlled.class",
     "changedClass": "ExportControlled",
-    "changedMethods": "[ExportControlled::getSSLSocketFactoryDefaultOrConfigured]",
+    "changedMethods": [
+      "ExportControlled::getSSLSocketFactoryDefaultOrConfigured"
+    ],
     "packageIdBefore": "com.mysql.jdbc",
     "packageIdAfter": "com.mysql.jdbc",
     "diffJson": {
@@ -21557,7 +22054,10 @@
     "classFileBefore": "proc/changes/CVE-2013-5679/41138fef5f63d9cf0d5e05d2bee2c7f682ffef3f/before/class/src/main/java/org/owasp/esapi/crypto/CipherText.class",
     "classFileAfter": "proc/changes/CVE-2013-5679/41138fef5f63d9cf0d5e05d2bee2c7f682ffef3f/after/class/src/main/java/org/owasp/esapi/crypto/CipherText.class",
     "changedClass": "CipherText",
-    "changedMethods": "[CipherText::validateMAC, CipherText::asPortableSerializedByteArray]",
+    "changedMethods": [
+      "CipherText::validateMAC",
+      "CipherText::asPortableSerializedByteArray"
+    ],
     "packageIdBefore": "org.owasp.esapi.crypto",
     "packageIdAfter": "org.owasp.esapi.crypto",
     "diffJson": {
@@ -21680,7 +22180,9 @@
     "classFileBefore": "proc/changes/CVE-2013-5679/41138fef5f63d9cf0d5e05d2bee2c7f682ffef3f/before/class/src/main/java/org/owasp/esapi/crypto/CipherTextSerializer.class",
     "classFileAfter": "proc/changes/CVE-2013-5679/41138fef5f63d9cf0d5e05d2bee2c7f682ffef3f/after/class/src/main/java/org/owasp/esapi/crypto/CipherTextSerializer.class",
     "changedClass": "CipherTextSerializer",
-    "changedMethods": "[CipherTextSerializer::convertToCipherText]",
+    "changedMethods": [
+      "CipherTextSerializer::convertToCipherText"
+    ],
     "packageIdBefore": "org.owasp.esapi.crypto",
     "packageIdAfter": "org.owasp.esapi.crypto",
     "diffJson": {
@@ -21731,7 +22233,11 @@
     "classFileBefore": "proc/changes/CVE-2013-5679/41138fef5f63d9cf0d5e05d2bee2c7f682ffef3f/before/class/src/main/java/org/owasp/esapi/reference/crypto/JavaEncryptor.class",
     "classFileAfter": "proc/changes/CVE-2013-5679/41138fef5f63d9cf0d5e05d2bee2c7f682ffef3f/after/class/src/main/java/org/owasp/esapi/reference/crypto/JavaEncryptor.class",
     "changedClass": "JavaEncryptor",
-    "changedMethods": "[JavaEncryptor::encrypt, JavaEncryptor::encrypt, JavaEncryptor::decrypt]",
+    "changedMethods": [
+      "JavaEncryptor::encrypt",
+      "JavaEncryptor::encrypt",
+      "JavaEncryptor::decrypt"
+    ],
     "packageIdBefore": "org.owasp.esapi.reference.crypto",
     "packageIdAfter": "org.owasp.esapi.reference.crypto",
     "diffJson": {
@@ -22070,7 +22576,9 @@
     "classFileBefore": "proc/changes/CVE-2016-0785/15857a69e7baf3675804495a5954cd0756ac8364/before/class/core/src/main/java/org/apache/struts2/components/Component.class",
     "classFileAfter": "proc/changes/CVE-2016-0785/15857a69e7baf3675804495a5954cd0756ac8364/after/class/core/src/main/java/org/apache/struts2/components/Component.class",
     "changedClass": "Component",
-    "changedMethods": "[Component::findValue]",
+    "changedMethods": [
+      "Component::findValue"
+    ],
     "packageIdBefore": "org.apache.struts2.components",
     "packageIdAfter": "org.apache.struts2.components",
     "diffJson": {
@@ -22121,7 +22629,11 @@
     "classFileBefore": "proc/changes/CVE-2016-0785/15857a69e7baf3675804495a5954cd0756ac8364/before/class/core/src/main/java/org/apache/struts2/util/ComponentUtils.class",
     "classFileAfter": "proc/changes/CVE-2016-0785/15857a69e7baf3675804495a5954cd0756ac8364/after/class/core/src/main/java/org/apache/struts2/util/ComponentUtils.class",
     "changedClass": "ComponentUtils",
-    "changedMethods": "[ComponentUtils::containsExpression, ComponentUtils::isExpression, ComponentUtils::isExpression]",
+    "changedMethods": [
+      "ComponentUtils::containsExpression",
+      "ComponentUtils::isExpression",
+      "ComponentUtils::isExpression"
+    ],
     "packageIdBefore": "org.apache.struts2.util",
     "packageIdAfter": "org.apache.struts2.util",
     "diffJson": {
@@ -22184,7 +22696,9 @@
     "classFileBefore": "proc/changes/CVE-2016-0785/15857a69e7baf3675804495a5954cd0756ac8364/before/class/core/src/main/java/org/apache/struts2/views/jsp/ui/AbstractUITag.class",
     "classFileAfter": "proc/changes/CVE-2016-0785/15857a69e7baf3675804495a5954cd0756ac8364/after/class/core/src/main/java/org/apache/struts2/views/jsp/ui/AbstractUITag.class",
     "changedClass": "AbstractUITag",
-    "changedMethods": "[AbstractUITag::setDynamicAttribute]",
+    "changedMethods": [
+      "AbstractUITag::setDynamicAttribute"
+    ],
     "packageIdBefore": "org.apache.struts2.views.jsp.ui",
     "packageIdAfter": "org.apache.struts2.views.jsp.ui",
     "diffJson": {
@@ -22219,7 +22733,12 @@
     "classFileBefore": "proc/changes/CVE-2013-4310/0c8366cb792227d484b9ca13e537037dd0cb57dc/before/class/core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.class",
     "classFileAfter": "proc/changes/CVE-2013-4310/0c8366cb792227d484b9ca13e537037dd0cb57dc/after/class/core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.class",
     "changedClass": "DefaultActionMapper",
-    "changedMethods": "[DefaultActionMapper::setAllowActionPrefix, DefaultActionMapper::setAllowActionCrossNamespaceAccess, DefaultActionMapper::DefaultActionMapper, DefaultActionMapper::handleSpecialParameters]",
+    "changedMethods": [
+      "DefaultActionMapper::setAllowActionPrefix",
+      "DefaultActionMapper::setAllowActionCrossNamespaceAccess",
+      "DefaultActionMapper::DefaultActionMapper",
+      "DefaultActionMapper::handleSpecialParameters"
+    ],
     "packageIdBefore": "org.apache.struts2.dispatcher.mapper",
     "packageIdAfter": "org.apache.struts2.dispatcher.mapper",
     "diffJson": {
@@ -22394,7 +22913,9 @@
     "classFileBefore": "proc/changes/CVE-2016-8738/554b9dddb0fbd1e581ef577dd62a7c22955ad0f6/before/class/core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.class",
     "classFileAfter": "proc/changes/CVE-2016-8738/554b9dddb0fbd1e581ef577dd62a7c22955ad0f6/after/class/core/src/main/java/com/opensymphony/xwork2/validator/validators/URLValidator.class",
     "changedClass": "URLValidator",
-    "changedMethods": "[URLValidator::validate]",
+    "changedMethods": [
+      "URLValidator::validate"
+    ],
     "packageIdBefore": "com.opensymphony.xwork2.validator.validators",
     "packageIdAfter": "com.opensymphony.xwork2.validator.validators",
     "diffJson": {
@@ -22429,7 +22950,9 @@
     "classFileBefore": "proc/changes/CVE-2013-6408/7239a57a51ea0f4d05dd330ce5e15e4f72f72747/before/class/solr/core/src/java/org/apache/solr/handler/DocumentAnalysisRequestHandler.class",
     "classFileAfter": "proc/changes/CVE-2013-6408/7239a57a51ea0f4d05dd330ce5e15e4f72f72747/after/class/solr/core/src/java/org/apache/solr/handler/DocumentAnalysisRequestHandler.class",
     "changedClass": "DocumentAnalysisRequestHandler",
-    "changedMethods": "[DocumentAnalysisRequestHandler::init]",
+    "changedMethods": [
+      "DocumentAnalysisRequestHandler::init"
+    ],
     "packageIdBefore": "org.apache.solr.handler",
     "packageIdAfter": "org.apache.solr.handler",
     "diffJson": {
@@ -22472,7 +22995,10 @@
     "classFileBefore": "proc/changes/CVE-2012-6612/f230486ce6707762c1a6e81655d0fac52887906d/before/class/solr/core/src/java/org/apache/solr/handler/loader/XMLLoader.class",
     "classFileAfter": "proc/changes/CVE-2012-6612/f230486ce6707762c1a6e81655d0fac52887906d/after/class/solr/core/src/java/org/apache/solr/handler/loader/XMLLoader.class",
     "changedClass": "XMLLoader",
-    "changedMethods": "[XMLLoader::load, XMLLoader::init]",
+    "changedMethods": [
+      "XMLLoader::load",
+      "XMLLoader::init"
+    ],
     "packageIdBefore": "org.apache.solr.handler.loader",
     "packageIdAfter": "org.apache.solr.handler.loader",
     "diffJson": {
@@ -22599,7 +23125,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/before/class/src/main/java/com/dynatrace/jenkins/dashboard/TABuildWrapper$DescriptorImpl.class",
     "classFileAfter": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/after/class/src/main/java/com/dynatrace/jenkins/dashboard/TABuildWrapper$DescriptorImpl.class",
     "changedClass": "TABuildWrapper$DescriptorImpl",
-    "changedMethods": "[TABuildWrapper::DescriptorImpl::doCheckSystemProfile]",
+    "changedMethods": [
+      "TABuildWrapper::DescriptorImpl::doCheckSystemProfile"
+    ],
     "packageIdBefore": "com.dynatrace.jenkins.dashboard",
     "packageIdAfter": "com.dynatrace.jenkins.dashboard",
     "diffJson": {
@@ -22718,7 +23246,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/before/class/src/main/java/com/dynatrace/jenkins/dashboard/TABuildWrapper.class",
     "classFileAfter": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/after/class/src/main/java/com/dynatrace/jenkins/dashboard/TABuildWrapper.class",
     "changedClass": "TABuildWrapper",
-    "changedMethods": "[TABuildWrapper::setupBuildVariables]",
+    "changedMethods": [
+      "TABuildWrapper::setupBuildVariables"
+    ],
     "packageIdBefore": "com.dynatrace.jenkins.dashboard",
     "packageIdAfter": "com.dynatrace.jenkins.dashboard",
     "diffJson": {
@@ -22837,7 +23367,13 @@
     "classFileBefore": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/before/class/src/main/java/com/dynatrace/jenkins/dashboard/TAGlobalConfiguration.class",
     "classFileAfter": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/after/class/src/main/java/com/dynatrace/jenkins/dashboard/TAGlobalConfiguration.class",
     "changedClass": "TAGlobalConfiguration",
-    "changedMethods": "[TAGlobalConfiguration::getDefaultPassword, TAGlobalConfiguration::doCheckDelay, TAGlobalConfiguration::configure, TAGlobalConfiguration::TAGlobalConfiguration, TAGlobalConfiguration::doCheckRetryCount]",
+    "changedMethods": [
+      "TAGlobalConfiguration::getDefaultPassword",
+      "TAGlobalConfiguration::doCheckDelay",
+      "TAGlobalConfiguration::configure",
+      "TAGlobalConfiguration::TAGlobalConfiguration",
+      "TAGlobalConfiguration::doCheckRetryCount"
+    ],
     "packageIdBefore": "com.dynatrace.jenkins.dashboard",
     "packageIdAfter": "com.dynatrace.jenkins.dashboard",
     "diffJson": {
@@ -22932,7 +23468,10 @@
     "classFileBefore": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/before/class/src/main/java/com/dynatrace/jenkins/dashboard/TAReportingProjectAction.class",
     "classFileAfter": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/after/class/src/main/java/com/dynatrace/jenkins/dashboard/TAReportingProjectAction.class",
     "changedClass": "TAReportingProjectAction",
-    "changedMethods": "[TAReportingProjectAction::doSummarizerGraph, TAReportingProjectAction::getExistingReportsList]",
+    "changedMethods": [
+      "TAReportingProjectAction::doSummarizerGraph",
+      "TAReportingProjectAction::getExistingReportsList"
+    ],
     "packageIdBefore": "com.dynatrace.jenkins.dashboard",
     "packageIdAfter": "com.dynatrace.jenkins.dashboard",
     "diffJson": {
@@ -23031,7 +23570,10 @@
     "classFileBefore": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/before/class/src/main/java/com/dynatrace/jenkins/dashboard/TAReportingProjectAction$GraphImpl.class",
     "classFileAfter": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/after/class/src/main/java/com/dynatrace/jenkins/dashboard/TAReportingProjectAction$GraphImpl.class",
     "changedClass": "TAReportingProjectAction$GraphImpl",
-    "changedMethods": "[TAReportingProjectAction::GraphImpl::GraphImpl, TAReportingProjectAction::GraphImpl::createGraph]",
+    "changedMethods": [
+      "TAReportingProjectAction::GraphImpl::GraphImpl",
+      "TAReportingProjectAction::GraphImpl::createGraph"
+    ],
     "packageIdBefore": "com.dynatrace.jenkins.dashboard",
     "packageIdAfter": "com.dynatrace.jenkins.dashboard",
     "diffJson": {
@@ -23130,7 +23672,14 @@
     "classFileBefore": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/before/class/src/main/java/com/dynatrace/jenkins/dashboard/utils/Utils.class",
     "classFileAfter": "proc/changes/CVE-2019-10462/373adaa1161d59ccd4e5e3469a9b6aeec17968ae/after/class/src/main/java/com/dynatrace/jenkins/dashboard/utils/Utils.class",
     "changedClass": "Utils",
-    "changedMethods": "[Utils::convertTestStatus, Utils::updateBuildVariable, Utils::createClient, Utils::convertTestCategory, Utils::convertTestMeasure, Utils::convertTestResult]",
+    "changedMethods": [
+      "Utils::convertTestStatus",
+      "Utils::updateBuildVariable",
+      "Utils::createClient",
+      "Utils::convertTestCategory",
+      "Utils::convertTestMeasure",
+      "Utils::convertTestResult"
+    ],
     "packageIdBefore": "com.dynatrace.jenkins.dashboard.utils",
     "packageIdAfter": "com.dynatrace.jenkins.dashboard.utils",
     "diffJson": {
@@ -23225,7 +23774,10 @@
     "classFileBefore": "proc/changes/CVE-2014-8152/3d7086c603a4538933dfa98d697d0df4539a984f/before/class/src/main/java/org/apache/xml/security/stax/impl/InputProcessorChainImpl.class",
     "classFileAfter": "proc/changes/CVE-2014-8152/3d7086c603a4538933dfa98d697d0df4539a984f/after/class/src/main/java/org/apache/xml/security/stax/impl/InputProcessorChainImpl.class",
     "changedClass": "InputProcessorChainImpl",
-    "changedMethods": "[InputProcessorChainImpl::createSubChain, InputProcessorChainImpl::createSubChain]",
+    "changedMethods": [
+      "InputProcessorChainImpl::createSubChain",
+      "InputProcessorChainImpl::createSubChain"
+    ],
     "packageIdBefore": "org.apache.xml.security.stax.impl",
     "packageIdAfter": "org.apache.xml.security.stax.impl",
     "diffJson": {
@@ -23284,7 +23836,9 @@
     "classFileBefore": "proc/changes/CVE-2014-8152/3d7086c603a4538933dfa98d697d0df4539a984f/before/class/src/main/java/org/apache/xml/security/stax/impl/processor/input/XMLSecurityInputProcessor.class",
     "classFileAfter": "proc/changes/CVE-2014-8152/3d7086c603a4538933dfa98d697d0df4539a984f/after/class/src/main/java/org/apache/xml/security/stax/impl/processor/input/XMLSecurityInputProcessor.class",
     "changedClass": "XMLSecurityInputProcessor",
-    "changedMethods": "[XMLSecurityInputProcessor::processNextEvent]",
+    "changedMethods": [
+      "XMLSecurityInputProcessor::processNextEvent"
+    ],
     "packageIdBefore": "org.apache.xml.security.stax.impl.processor.input",
     "packageIdAfter": "org.apache.xml.security.stax.impl.processor.input",
     "diffJson": {
@@ -23335,7 +23889,10 @@
     "classFileBefore": "proc/changes/CVE-2016-10750/5a47697519018eb4918df33a21faae811e85f01a/before/class/hazelcast/src/main/java/com/hazelcast/config/ConfigXmlGenerator.class",
     "classFileAfter": "proc/changes/CVE-2016-10750/5a47697519018eb4918df33a21faae811e85f01a/after/class/hazelcast/src/main/java/com/hazelcast/config/ConfigXmlGenerator.class",
     "changedClass": "ConfigXmlGenerator",
-    "changedMethods": "[ConfigXmlGenerator::serializationXmlGenerator, ConfigXmlGenerator::appendFilterList]",
+    "changedMethods": [
+      "ConfigXmlGenerator::serializationXmlGenerator",
+      "ConfigXmlGenerator::appendFilterList"
+    ],
     "packageIdBefore": "com.hazelcast.config",
     "packageIdAfter": "com.hazelcast.config",
     "diffJson": {
@@ -23462,7 +24019,9 @@
     "classFileBefore": "proc/changes/CVE-2013-1879/148ca81dcd8f14cfe2ff37012fd1aa42518f02dc/before/class/activemq-client/src/main/java/org/apache/activemq/broker/scheduler/CronParser.class",
     "classFileAfter": "proc/changes/CVE-2013-1879/148ca81dcd8f14cfe2ff37012fd1aa42518f02dc/after/class/activemq-client/src/main/java/org/apache/activemq/broker/scheduler/CronParser.class",
     "changedClass": "CronParser",
-    "changedMethods": "[CronParser::getNextScheduledTime]",
+    "changedMethods": [
+      "CronParser::getNextScheduledTime"
+    ],
     "packageIdBefore": "org.apache.activemq.broker.scheduler",
     "packageIdAfter": "org.apache.activemq.broker.scheduler",
     "diffJson": {
@@ -23497,7 +24056,12 @@
     "classFileBefore": "proc/changes/CVE-2017-1000487/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41/before/class/src/main/java/org/codehaus/plexus/util/cli/Commandline.class",
     "classFileAfter": "proc/changes/CVE-2017-1000487/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41/after/class/src/main/java/org/codehaus/plexus/util/cli/Commandline.class",
     "changedClass": "Commandline",
-    "changedMethods": "[Commandline::execute, Commandline::getLiteralExecutable, Commandline::verifyShellState, Commandline::getCommandline]",
+    "changedMethods": [
+      "Commandline::execute",
+      "Commandline::getLiteralExecutable",
+      "Commandline::verifyShellState",
+      "Commandline::getCommandline"
+    ],
     "packageIdBefore": "org.codehaus.plexus.util.cli",
     "packageIdAfter": "org.codehaus.plexus.util.cli",
     "diffJson": {
@@ -23676,7 +24240,9 @@
     "classFileBefore": "proc/changes/CVE-2017-1000487/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41/before/class/src/main/java/org/codehaus/plexus/util/cli/Commandline$Marker.class",
     "classFileAfter": "proc/changes/CVE-2017-1000487/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41/after/class/src/main/java/org/codehaus/plexus/util/cli/Commandline$Marker.class",
     "changedClass": "Commandline$Marker",
-    "changedMethods": "[Commandline::Marker::getPosition]",
+    "changedMethods": [
+      "Commandline::Marker::getPosition"
+    ],
     "packageIdBefore": "org.codehaus.plexus.util.cli",
     "packageIdAfter": "org.codehaus.plexus.util.cli",
     "diffJson": {
@@ -23855,7 +24421,15 @@
     "classFileBefore": "proc/changes/CVE-2017-1000487/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41/before/class/src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.class",
     "classFileAfter": "proc/changes/CVE-2017-1000487/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41/after/class/src/main/java/org/codehaus/plexus/util/cli/shell/BourneShell.class",
     "changedClass": "BourneShell",
-    "changedMethods": "[BourneShell::BourneShell, BourneShell::BourneShell, BourneShell::getExecutable, BourneShell::quoteOneItem, BourneShell::getQuotingTriggerChars, BourneShell::getExecutionPreamble, BourneShell::unifyQuotes]",
+    "changedMethods": [
+      "BourneShell::BourneShell",
+      "BourneShell::BourneShell",
+      "BourneShell::getExecutable",
+      "BourneShell::quoteOneItem",
+      "BourneShell::getQuotingTriggerChars",
+      "BourneShell::getExecutionPreamble",
+      "BourneShell::unifyQuotes"
+    ],
     "packageIdBefore": "org.codehaus.plexus.util.cli.shell",
     "packageIdAfter": "org.codehaus.plexus.util.cli.shell",
     "diffJson": {
@@ -24122,7 +24696,12 @@
     "classFileBefore": "proc/changes/CVE-2017-1000487/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41/before/class/src/main/java/org/codehaus/plexus/util/cli/shell/Shell.class",
     "classFileAfter": "proc/changes/CVE-2017-1000487/b38a1b3a4352303e4312b2bb601a0d7ec6e28f41/after/class/src/main/java/org/codehaus/plexus/util/cli/shell/Shell.class",
     "changedClass": "Shell",
-    "changedMethods": "[Shell::getShellCommandLine, Shell::setUnconditionalQuoting, Shell::getRawCommandLine, Shell::quoteOneItem]",
+    "changedMethods": [
+      "Shell::getShellCommandLine",
+      "Shell::setUnconditionalQuoting",
+      "Shell::getRawCommandLine",
+      "Shell::quoteOneItem"
+    ],
     "packageIdBefore": "org.codehaus.plexus.util.cli.shell",
     "packageIdAfter": "org.codehaus.plexus.util.cli.shell",
     "diffJson": {
@@ -24289,7 +24868,9 @@
     "classFileBefore": "proc/changes/CVE-2018-1002201/759b72f33bc8f4d69f84f09fcb7f010ad45d6fff/before/class/src/main/java/org/zeroturnaround/zip/ZipUtil$BackslashUnpacker.class",
     "classFileAfter": "proc/changes/CVE-2018-1002201/759b72f33bc8f4d69f84f09fcb7f010ad45d6fff/after/class/src/main/java/org/zeroturnaround/zip/ZipUtil$BackslashUnpacker.class",
     "changedClass": "ZipUtil$BackslashUnpacker",
-    "changedMethods": "[ZipUtil::BackslashUnpacker::process]",
+    "changedMethods": [
+      "ZipUtil::BackslashUnpacker::process"
+    ],
     "packageIdBefore": "org.zeroturnaround.zip",
     "packageIdAfter": "org.zeroturnaround.zip",
     "diffJson": {
@@ -24459,7 +25040,9 @@
     "classFileBefore": "proc/changes/CVE-2018-1002201/759b72f33bc8f4d69f84f09fcb7f010ad45d6fff/before/class/src/main/java/org/zeroturnaround/zip/ZipUtil$Unpacker.class",
     "classFileAfter": "proc/changes/CVE-2018-1002201/759b72f33bc8f4d69f84f09fcb7f010ad45d6fff/after/class/src/main/java/org/zeroturnaround/zip/ZipUtil$Unpacker.class",
     "changedClass": "ZipUtil$Unpacker",
-    "changedMethods": "[ZipUtil::Unpacker::process]",
+    "changedMethods": [
+      "ZipUtil::Unpacker::process"
+    ],
     "packageIdBefore": "org.zeroturnaround.zip",
     "packageIdAfter": "org.zeroturnaround.zip",
     "diffJson": {
@@ -24629,7 +25212,10 @@
     "classFileBefore": "proc/changes/CVE-2013-6407/f230486ce6707762c1a6e81655d0fac52887906d/before/class/solr/core/src/java/org/apache/solr/handler/loader/XMLLoader.class",
     "classFileAfter": "proc/changes/CVE-2013-6407/f230486ce6707762c1a6e81655d0fac52887906d/after/class/solr/core/src/java/org/apache/solr/handler/loader/XMLLoader.class",
     "changedClass": "XMLLoader",
-    "changedMethods": "[XMLLoader::load, XMLLoader::init]",
+    "changedMethods": [
+      "XMLLoader::load",
+      "XMLLoader::init"
+    ],
     "packageIdBefore": "org.apache.solr.handler.loader",
     "packageIdAfter": "org.apache.solr.handler.loader",
     "diffJson": {
@@ -24756,7 +25342,10 @@
     "classFileBefore": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/before/class/solr/core/src/java/org/apache/solr/security/DelegationTokenKerberosFilter$SolrZkToCuratorCredentialsACLs.class",
     "classFileAfter": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/after/class/solr/core/src/java/org/apache/solr/security/DelegationTokenKerberosFilter$SolrZkToCuratorCredentialsACLs.class",
     "changedClass": "DelegationTokenKerberosFilter$SolrZkToCuratorCredentialsACLs",
-    "changedMethods": "[DelegationTokenKerberosFilter::SolrZkToCuratorCredentialsACLs::createACLProvider, DelegationTokenKerberosFilter::SolrZkToCuratorCredentialsACLs::SolrZkToCuratorCredentialsACLs]",
+    "changedMethods": [
+      "DelegationTokenKerberosFilter::SolrZkToCuratorCredentialsACLs::createACLProvider",
+      "DelegationTokenKerberosFilter::SolrZkToCuratorCredentialsACLs::SolrZkToCuratorCredentialsACLs"
+    ],
     "packageIdBefore": "org.apache.solr.security",
     "packageIdAfter": "org.apache.solr.security",
     "diffJson": {
@@ -24951,7 +25540,10 @@
     "classFileBefore": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/before/class/solr/core/src/java/org/apache/solr/security/DelegationTokenKerberosFilter.class",
     "classFileAfter": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/after/class/solr/core/src/java/org/apache/solr/security/DelegationTokenKerberosFilter.class",
     "changedClass": "DelegationTokenKerberosFilter",
-    "changedMethods": "[DelegationTokenKerberosFilter::getCuratorClient, DelegationTokenKerberosFilter::init]",
+    "changedMethods": [
+      "DelegationTokenKerberosFilter::getCuratorClient",
+      "DelegationTokenKerberosFilter::init"
+    ],
     "packageIdBefore": "org.apache.solr.security",
     "packageIdAfter": "org.apache.solr.security",
     "diffJson": {
@@ -25146,7 +25738,10 @@
     "classFileBefore": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/before/class/solr/core/src/java/org/apache/solr/security/HadoopAuthFilter$SolrZkToCuratorCredentialsACLs.class",
     "classFileAfter": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/after/class/solr/core/src/java/org/apache/solr/security/HadoopAuthFilter$SolrZkToCuratorCredentialsACLs.class",
     "changedClass": "HadoopAuthFilter$SolrZkToCuratorCredentialsACLs",
-    "changedMethods": "[HadoopAuthFilter::SolrZkToCuratorCredentialsACLs::SolrZkToCuratorCredentialsACLs, HadoopAuthFilter::SolrZkToCuratorCredentialsACLs::createACLProvider]",
+    "changedMethods": [
+      "HadoopAuthFilter::SolrZkToCuratorCredentialsACLs::SolrZkToCuratorCredentialsACLs",
+      "HadoopAuthFilter::SolrZkToCuratorCredentialsACLs::createACLProvider"
+    ],
     "packageIdBefore": "org.apache.solr.security",
     "packageIdAfter": "org.apache.solr.security",
     "diffJson": {
@@ -25341,7 +25936,10 @@
     "classFileBefore": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/before/class/solr/core/src/java/org/apache/solr/security/HadoopAuthFilter.class",
     "classFileAfter": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/after/class/solr/core/src/java/org/apache/solr/security/HadoopAuthFilter.class",
     "changedClass": "HadoopAuthFilter",
-    "changedMethods": "[HadoopAuthFilter::init, HadoopAuthFilter::getCuratorClient]",
+    "changedMethods": [
+      "HadoopAuthFilter::init",
+      "HadoopAuthFilter::getCuratorClient"
+    ],
     "packageIdBefore": "org.apache.solr.security",
     "packageIdAfter": "org.apache.solr.security",
     "diffJson": {
@@ -25536,7 +26134,9 @@
     "classFileBefore": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/before/class/solr/core/src/java/org/apache/solr/security/HadoopAuthPlugin.class",
     "classFileAfter": "proc/changes/CVE-2017-9803/b091934f9e98568b848d0584a1145c8e514cbd21/after/class/solr/core/src/java/org/apache/solr/security/HadoopAuthPlugin.class",
     "changedClass": "HadoopAuthPlugin",
-    "changedMethods": "[HadoopAuthPlugin::init]",
+    "changedMethods": [
+      "HadoopAuthPlugin::init"
+    ],
     "packageIdBefore": "org.apache.solr.security",
     "packageIdAfter": "org.apache.solr.security",
     "diffJson": {
@@ -25566,7 +26166,10 @@
     "classFileBefore": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/before/class/agent/core/src/main/java/org/jolokia/backend/BackendManager.class",
     "classFileAfter": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/after/class/agent/core/src/main/java/org/jolokia/backend/BackendManager.class",
     "changedClass": "BackendManager",
-    "changedMethods": "[BackendManager::isOriginAllowed, BackendManager::isCorsAccessAllowed]",
+    "changedMethods": [
+      "BackendManager::isOriginAllowed",
+      "BackendManager::isCorsAccessAllowed"
+    ],
     "packageIdBefore": "org.jolokia.backend",
     "packageIdAfter": "org.jolokia.backend",
     "diffJson": {
@@ -25621,7 +26224,10 @@
     "classFileBefore": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/before/class/agent/core/src/main/java/org/jolokia/http/AgentServlet.class",
     "classFileAfter": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/after/class/agent/core/src/main/java/org/jolokia/http/AgentServlet.class",
     "changedClass": "AgentServlet",
-    "changedMethods": "[AgentServlet::getOriginOrReferer, AgentServlet::handle]",
+    "changedMethods": [
+      "AgentServlet::getOriginOrReferer",
+      "AgentServlet::handle"
+    ],
     "packageIdBefore": "org.jolokia.http",
     "packageIdAfter": "org.jolokia.http",
     "diffJson": {
@@ -25696,7 +26302,12 @@
     "classFileBefore": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/before/class/agent/core/src/main/java/org/jolokia/http/HttpRequestHandler.class",
     "classFileAfter": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/after/class/agent/core/src/main/java/org/jolokia/http/HttpRequestHandler.class",
     "changedClass": "HttpRequestHandler",
-    "changedMethods": "[HttpRequestHandler::checkClientIPAccess, HttpRequestHandler::extractCorsOrigin, HttpRequestHandler::checkAccess, HttpRequestHandler::handleCorsPreflightRequest]",
+    "changedMethods": [
+      "HttpRequestHandler::checkClientIPAccess",
+      "HttpRequestHandler::extractCorsOrigin",
+      "HttpRequestHandler::checkAccess",
+      "HttpRequestHandler::handleCorsPreflightRequest"
+    ],
     "packageIdBefore": "org.jolokia.http",
     "packageIdAfter": "org.jolokia.http",
     "diffJson": {
@@ -25771,7 +26382,10 @@
     "classFileBefore": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/before/class/agent/core/src/main/java/org/jolokia/restrictor/AbstractConstantRestrictor.class",
     "classFileAfter": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/after/class/agent/core/src/main/java/org/jolokia/restrictor/AbstractConstantRestrictor.class",
     "changedClass": "AbstractConstantRestrictor",
-    "changedMethods": "[AbstractConstantRestrictor::isOriginAllowed, AbstractConstantRestrictor::isCorsAccessAllowed]",
+    "changedMethods": [
+      "AbstractConstantRestrictor::isOriginAllowed",
+      "AbstractConstantRestrictor::isCorsAccessAllowed"
+    ],
     "packageIdBefore": "org.jolokia.restrictor",
     "packageIdAfter": "org.jolokia.restrictor",
     "diffJson": {
@@ -25806,7 +26420,10 @@
     "classFileBefore": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/before/class/agent/core/src/main/java/org/jolokia/restrictor/PolicyRestrictor.class",
     "classFileAfter": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/after/class/agent/core/src/main/java/org/jolokia/restrictor/PolicyRestrictor.class",
     "changedClass": "PolicyRestrictor",
-    "changedMethods": "[PolicyRestrictor::isCorsAccessAllowed, PolicyRestrictor::isOriginAllowed]",
+    "changedMethods": [
+      "PolicyRestrictor::isCorsAccessAllowed",
+      "PolicyRestrictor::isOriginAllowed"
+    ],
     "packageIdBefore": "org.jolokia.restrictor",
     "packageIdAfter": "org.jolokia.restrictor",
     "diffJson": {
@@ -25849,7 +26466,11 @@
     "classFileBefore": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/before/class/agent/core/src/main/java/org/jolokia/restrictor/policy/CorsChecker.class",
     "classFileAfter": "proc/changes/CVE-2014-0168/2d9b168cfbbf5a6d16fa6e8a5b34503e3dc42364/after/class/agent/core/src/main/java/org/jolokia/restrictor/policy/CorsChecker.class",
     "changedClass": "CorsChecker",
-    "changedMethods": "[CorsChecker::check, CorsChecker::CorsChecker, CorsChecker::check]",
+    "changedMethods": [
+      "CorsChecker::check",
+      "CorsChecker::CorsChecker",
+      "CorsChecker::check"
+    ],
     "packageIdBefore": "org.jolokia.restrictor.policy",
     "packageIdAfter": "org.jolokia.restrictor.policy",
     "diffJson": {
@@ -25988,7 +26609,9 @@
     "classFileBefore": "proc/changes/CVE-2017-3523/6189e718de5b6c6115aee45dd7a480081c129d68/before/class/src/com/mysql/jdbc/ResultSetImpl.class",
     "classFileAfter": "proc/changes/CVE-2017-3523/6189e718de5b6c6115aee45dd7a480081c129d68/after/class/src/com/mysql/jdbc/ResultSetImpl.class",
     "changedClass": "ResultSetImpl",
-    "changedMethods": "[ResultSetImpl::getNativeConvertToString]",
+    "changedMethods": [
+      "ResultSetImpl::getNativeConvertToString"
+    ],
     "packageIdBefore": "com.mysql.jdbc",
     "packageIdAfter": "com.mysql.jdbc",
     "diffJson": {
@@ -26159,7 +26782,9 @@
     "classFileBefore": "proc/changes/CVE-2015-3253/09e9778e8a33052d8c27105aee5310649637233d/before/class/src/main/org/codehaus/groovy/runtime/MethodClosure.class",
     "classFileAfter": "proc/changes/CVE-2015-3253/09e9778e8a33052d8c27105aee5310649637233d/after/class/src/main/org/codehaus/groovy/runtime/MethodClosure.class",
     "changedClass": "MethodClosure",
-    "changedMethods": "[MethodClosure::readResolve]",
+    "changedMethods": [
+      "MethodClosure::readResolve"
+    ],
     "packageIdBefore": "org.codehaus.groovy.runtime",
     "packageIdAfter": "org.codehaus.groovy.runtime",
     "diffJson": {
@@ -26230,7 +26855,9 @@
     "classFileBefore": "proc/changes/CVE-2013-4366/08140864e3e4c0994e094c4cf0507932baf6a66a/before/class/httpclient/src/main/java/org/apache/http/impl/client/HttpClientBuilder.class",
     "classFileAfter": "proc/changes/CVE-2013-4366/08140864e3e4c0994e094c4cf0507932baf6a66a/after/class/httpclient/src/main/java/org/apache/http/impl/client/HttpClientBuilder.class",
     "changedClass": "HttpClientBuilder",
-    "changedMethods": "[HttpClientBuilder::build]",
+    "changedMethods": [
+      "HttpClientBuilder::build"
+    ],
     "packageIdBefore": "org.apache.http.impl.client",
     "packageIdAfter": "org.apache.http.impl.client",
     "diffJson": {
@@ -26272,7 +26899,9 @@
     "classFileBefore": "proc/changes/CVE-2013-5960/b7cbc53f9cc967cf1a5a9463d8c6fef9ed6ef4f7/before/class/src/main/java/org/owasp/esapi/codecs/PercentCodec.class",
     "classFileAfter": "proc/changes/CVE-2013-5960/b7cbc53f9cc967cf1a5a9463d8c6fef9ed6ef4f7/after/class/src/main/java/org/owasp/esapi/codecs/PercentCodec.class",
     "changedClass": "PercentCodec",
-    "changedMethods": "[PercentCodec::encodeCharacter]",
+    "changedMethods": [
+      "PercentCodec::encodeCharacter"
+    ],
     "packageIdBefore": "org.owasp.esapi.codecs",
     "packageIdAfter": "org.owasp.esapi.codecs",
     "diffJson": {
@@ -26347,7 +26976,9 @@
     "classFileBefore": "proc/changes/CVE-2016-6814/4df8b652aa018a5d5d1cda8fba938bf3422db31c/before/class/src/main/org/codehaus/groovy/runtime/MethodClosure.class",
     "classFileAfter": "proc/changes/CVE-2016-6814/4df8b652aa018a5d5d1cda8fba938bf3422db31c/after/class/src/main/org/codehaus/groovy/runtime/MethodClosure.class",
     "changedClass": "MethodClosure",
-    "changedMethods": "[MethodClosure::readObject]",
+    "changedMethods": [
+      "MethodClosure::readObject"
+    ],
     "packageIdBefore": "org.codehaus.groovy.runtime",
     "packageIdAfter": "org.codehaus.groovy.runtime",
     "diffJson": {
@@ -26405,7 +27036,10 @@
     "classFileBefore": "proc/changes/CVE-2018-8016/28ee665b3c0c9238b61a871064f024d54cddcc79/before/class/src/java/org/apache/cassandra/utils/JMXServerUtils.class",
     "classFileAfter": "proc/changes/CVE-2018-8016/28ee665b3c0c9238b61a871064f024d54cddcc79/after/class/src/java/org/apache/cassandra/utils/JMXServerUtils.class",
     "changedClass": "JMXServerUtils",
-    "changedMethods": "[JMXServerUtils::configureRMIRegistry, JMXServerUtils::createJMXServer]",
+    "changedMethods": [
+      "JMXServerUtils::configureRMIRegistry",
+      "JMXServerUtils::createJMXServer"
+    ],
     "packageIdBefore": "org.apache.cassandra.utils",
     "packageIdAfter": "org.apache.cassandra.utils",
     "diffJson": {
@@ -27168,7 +27802,12 @@
     "classFileBefore": "proc/changes/CVE-2014-3600/b9696ac80bb496b52d05c3884f81b0746d9af9e2/before/class/activemq-client/src/main/java/org/apache/activemq/filter/XPathExpression.class",
     "classFileAfter": "proc/changes/CVE-2014-3600/b9696ac80bb496b52d05c3884f81b0746d9af9e2/after/class/activemq-client/src/main/java/org/apache/activemq/filter/XPathExpression.class",
     "changedClass": "XPathExpression",
-    "changedMethods": "[XPathExpression::setupFeatures, XPathExpression::createEvaluator, XPathExpression::getXPathEvaluatorConstructor, XPathExpression::catch]",
+    "changedMethods": [
+      "XPathExpression::setupFeatures",
+      "XPathExpression::createEvaluator",
+      "XPathExpression::getXPathEvaluatorConstructor",
+      "XPathExpression::catch"
+    ],
     "packageIdBefore": "org.apache.activemq.filter",
     "packageIdAfter": "org.apache.activemq.filter",
     "diffJson": {
@@ -27423,7 +28062,9 @@
     "classFileBefore": "proc/changes/CVE-2018-1000134/8471904a02438c03965d21367890276bc25fa5a6/before/class/src/com/unboundid/ldap/sdk/SimpleBindRequest.class",
     "classFileAfter": "proc/changes/CVE-2018-1000134/8471904a02438c03965d21367890276bc25fa5a6/after/class/src/com/unboundid/ldap/sdk/SimpleBindRequest.class",
     "changedClass": "SimpleBindRequest",
-    "changedMethods": "[SimpleBindRequest::process]",
+    "changedMethods": [
+      "SimpleBindRequest::process"
+    ],
     "packageIdBefore": "com.unboundid.ldap.sdk",
     "packageIdAfter": "com.unboundid.ldap.sdk",
     "diffJson": {
@@ -27514,7 +28155,11 @@
     "classFileBefore": "proc/changes/CVE-2013-4316/58947c3f85ae641c1a476316a2888e53605948d1/before/class/core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.class",
     "classFileAfter": "proc/changes/CVE-2013-4316/58947c3f85ae641c1a476316a2888e53605948d1/after/class/core/src/main/java/org/apache/struts2/dispatcher/mapper/DefaultActionMapper.class",
     "changedClass": "DefaultActionMapper",
-    "changedMethods": "[DefaultActionMapper::DefaultActionMapper, DefaultActionMapper::setAllowDynamicMethodCalls, DefaultActionMapper::handleSpecialParameters]",
+    "changedMethods": [
+      "DefaultActionMapper::DefaultActionMapper",
+      "DefaultActionMapper::setAllowDynamicMethodCalls",
+      "DefaultActionMapper::handleSpecialParameters"
+    ],
     "packageIdBefore": "org.apache.struts2.dispatcher.mapper",
     "packageIdAfter": "org.apache.struts2.dispatcher.mapper",
     "diffJson": {
@@ -27689,7 +28334,12 @@
     "classFileBefore": "proc/changes/CVE-2015-4165/f5cfb2a1869d1a52930cbd3138278a6e2c1b22e6/before/class/src/main/java/org/elasticsearch/env/Environment.class",
     "classFileAfter": "proc/changes/CVE-2015-4165/f5cfb2a1869d1a52930cbd3138278a6e2c1b22e6/after/class/src/main/java/org/elasticsearch/env/Environment.class",
     "changedClass": "Environment",
-    "changedMethods": "[Environment::Environment, Environment::repoFiles, Environment::resolve, Environment::resolveRepoFile]",
+    "changedMethods": [
+      "Environment::Environment",
+      "Environment::repoFiles",
+      "Environment::resolve",
+      "Environment::resolveRepoFile"
+    ],
     "packageIdBefore": "org.elasticsearch.env",
     "packageIdAfter": "org.elasticsearch.env",
     "diffJson": {
@@ -27939,7 +28589,10 @@
     "classFileBefore": "proc/changes/CVE-2015-4165/f5cfb2a1869d1a52930cbd3138278a6e2c1b22e6/before/class/src/main/java/org/elasticsearch/repositories/fs/FsRepository.class",
     "classFileAfter": "proc/changes/CVE-2015-4165/f5cfb2a1869d1a52930cbd3138278a6e2c1b22e6/after/class/src/main/java/org/elasticsearch/repositories/fs/FsRepository.class",
     "changedClass": "FsRepository",
-    "changedMethods": "[FsRepository::FsRepository, FsRepository::FsRepository]",
+    "changedMethods": [
+      "FsRepository::FsRepository",
+      "FsRepository::FsRepository"
+    ],
     "packageIdBefore": "org.elasticsearch.repositories.fs",
     "packageIdAfter": "org.elasticsearch.repositories.fs",
     "diffJson": {
@@ -28034,7 +28687,9 @@
     "classFileBefore": "proc/changes/CVE-2018-8718/98e79cf904769907f83894e29f50ed6b3e7eb135/before/class/src/main/java/hudson/tasks/Mailer$DescriptorImpl.class",
     "classFileAfter": "proc/changes/CVE-2018-8718/98e79cf904769907f83894e29f50ed6b3e7eb135/after/class/src/main/java/hudson/tasks/Mailer$DescriptorImpl.class",
     "changedClass": "Mailer$DescriptorImpl",
-    "changedMethods": "[Mailer::DescriptorImpl::doSendTestMail]",
+    "changedMethods": [
+      "Mailer::DescriptorImpl::doSendTestMail"
+    ],
     "packageIdBefore": "hudson.tasks",
     "packageIdAfter": "hudson.tasks",
     "diffJson": {
@@ -28076,7 +28731,9 @@
     "classFileBefore": "proc/changes/CVE-2012-4386/1081c52be93abfd2f33ba8453c676e3edcedec8b/before/class/core/src/main/java/org/apache/struts2/interceptor/ExecuteAndWaitInterceptor.class",
     "classFileAfter": "proc/changes/CVE-2012-4386/1081c52be93abfd2f33ba8453c676e3edcedec8b/after/class/core/src/main/java/org/apache/struts2/interceptor/ExecuteAndWaitInterceptor.class",
     "changedClass": "ExecuteAndWaitInterceptor",
-    "changedMethods": "[ExecuteAndWaitInterceptor::doIntercept]",
+    "changedMethods": [
+      "ExecuteAndWaitInterceptor::doIntercept"
+    ],
     "packageIdBefore": "org.apache.struts2.interceptor",
     "packageIdAfter": "org.apache.struts2.interceptor",
     "diffJson": {
@@ -28123,7 +28780,10 @@
     "classFileBefore": "proc/changes/CVE-2012-4386/1081c52be93abfd2f33ba8453c676e3edcedec8b/before/class/core/src/main/java/org/apache/struts2/interceptor/TokenSessionStoreInterceptor.class",
     "classFileAfter": "proc/changes/CVE-2012-4386/1081c52be93abfd2f33ba8453c676e3edcedec8b/after/class/core/src/main/java/org/apache/struts2/interceptor/TokenSessionStoreInterceptor.class",
     "changedClass": "TokenSessionStoreInterceptor",
-    "changedMethods": "[TokenSessionStoreInterceptor::handleInvalidToken, TokenSessionStoreInterceptor::handleValidToken]",
+    "changedMethods": [
+      "TokenSessionStoreInterceptor::handleInvalidToken",
+      "TokenSessionStoreInterceptor::handleValidToken"
+    ],
     "packageIdBefore": "org.apache.struts2.interceptor",
     "packageIdAfter": "org.apache.struts2.interceptor",
     "diffJson": {
@@ -28174,7 +28834,12 @@
     "classFileBefore": "proc/changes/CVE-2012-4386/1081c52be93abfd2f33ba8453c676e3edcedec8b/before/class/core/src/main/java/org/apache/struts2/util/TokenHelper.class",
     "classFileAfter": "proc/changes/CVE-2012-4386/1081c52be93abfd2f33ba8453c676e3edcedec8b/after/class/core/src/main/java/org/apache/struts2/util/TokenHelper.class",
     "changedClass": "TokenHelper",
-    "changedMethods": "[TokenHelper::buildTokenSessionAttributeName, TokenHelper::setToken, TokenHelper::validToken, TokenHelper::setSessionToken]",
+    "changedMethods": [
+      "TokenHelper::buildTokenSessionAttributeName",
+      "TokenHelper::setToken",
+      "TokenHelper::validToken",
+      "TokenHelper::setSessionToken"
+    ],
     "packageIdBefore": "org.apache.struts2.util",
     "packageIdAfter": "org.apache.struts2.util",
     "diffJson": {
@@ -28545,7 +29210,12 @@
     "classFileBefore": "proc/changes/CVE-2020-28191/ed66e3f584de954297ebaf98ea4a235286784707/before/class/console/src/main/java/org/togglz/console/handlers/edit/EditPageHandler.class",
     "classFileAfter": "proc/changes/CVE-2020-28191/ed66e3f584de954297ebaf98ea4a235286784707/after/class/console/src/main/java/org/togglz/console/handlers/edit/EditPageHandler.class",
     "changedClass": "EditPageHandler",
-    "changedMethods": "[EditPageHandler::process, EditPageHandler::renderEditPage, EditPageHandler::renderErrorPage, EditPageHandler::validateCSRFToken]",
+    "changedMethods": [
+      "EditPageHandler::process",
+      "EditPageHandler::renderEditPage",
+      "EditPageHandler::renderErrorPage",
+      "EditPageHandler::validateCSRFToken"
+    ],
     "packageIdBefore": "org.togglz.console.handlers.edit",
     "packageIdAfter": "org.togglz.console.handlers.edit",
     "diffJson": {
@@ -28676,7 +29346,9 @@
     "classFileBefore": "proc/changes/CVE-2020-11987/0ef5b661a1f77772d1110877ea9e0287987098f6/before/class/batik-svgbrowser/src/main/java/org/apache/batik/apps/svgbrowser/NodePickerPanel.class",
     "classFileAfter": "proc/changes/CVE-2020-11987/0ef5b661a1f77772d1110877ea9e0287987098f6/after/class/batik-svgbrowser/src/main/java/org/apache/batik/apps/svgbrowser/NodePickerPanel.class",
     "changedClass": "NodePickerPanel",
-    "changedMethods": "[NodePickerPanel::parseXml]",
+    "changedMethods": [
+      "NodePickerPanel::parseXml"
+    ],
     "packageIdBefore": "org.apache.batik.apps.svgbrowser",
     "packageIdAfter": "org.apache.batik.apps.svgbrowser",
     "diffJson": {
@@ -28727,7 +29399,9 @@
     "classFileBefore": "proc/changes/CVE-2020-1729/fb0def6f61c09a2a80c9145e4ec6521225cd0b99/before/class/implementation/src/main/java/io/smallrye/config/SecuritySupport.class",
     "classFileAfter": "proc/changes/CVE-2020-1729/fb0def6f61c09a2a80c9145e4ec6521225cd0b99/after/class/implementation/src/main/java/io/smallrye/config/SecuritySupport.class",
     "changedClass": "SecuritySupport",
-    "changedMethods": "[SecuritySupport::getContextClassLoader]",
+    "changedMethods": [
+      "SecuritySupport::getContextClassLoader"
+    ],
     "packageIdBefore": "io.smallrye.config",
     "packageIdAfter": "io.smallrye.config",
     "diffJson": {
@@ -28858,7 +29532,9 @@
     "classFileBefore": "proc/changes/CVE-2019-11343/3c20b874fba9cc2a78b9ace10208de1602b56c3f/before/class/src/main/java/org/torpedoquery/jpa/internal/conditions/ConditionBuilder.class",
     "classFileAfter": "proc/changes/CVE-2019-11343/3c20b874fba9cc2a78b9ace10208de1602b56c3f/after/class/src/main/java/org/torpedoquery/jpa/internal/conditions/ConditionBuilder.class",
     "changedClass": "ConditionBuilder",
-    "changedMethods": "[ConditionBuilder::createLike]",
+    "changedMethods": [
+      "ConditionBuilder::createLike"
+    ],
     "packageIdBefore": "org.torpedoquery.jpa.internal.conditions",
     "packageIdAfter": "org.torpedoquery.jpa.internal.conditions",
     "diffJson": {
@@ -28901,7 +29577,14 @@
     "classFileBefore": "proc/changes/CVE-2019-11343/3c20b874fba9cc2a78b9ace10208de1602b56c3f/before/class/src/main/java/org/torpedoquery/jpa/internal/conditions/LikeCondition.class",
     "classFileAfter": "proc/changes/CVE-2019-11343/3c20b874fba9cc2a78b9ace10208de1602b56c3f/after/class/src/main/java/org/torpedoquery/jpa/internal/conditions/LikeCondition.class",
     "changedClass": "LikeCondition",
-    "changedMethods": "[LikeCondition::LikeCondition, LikeCondition::LikeCondition, LikeCondition::getLike, LikeCondition::getParameters, LikeCondition::createQueryFragment, LikeCondition::getComparator]",
+    "changedMethods": [
+      "LikeCondition::LikeCondition",
+      "LikeCondition::LikeCondition",
+      "LikeCondition::getLike",
+      "LikeCondition::getParameters",
+      "LikeCondition::createQueryFragment",
+      "LikeCondition::getComparator"
+    ],
     "packageIdBefore": "org.torpedoquery.jpa.internal.conditions",
     "packageIdAfter": "org.torpedoquery.jpa.internal.conditions",
     "diffJson": {
@@ -29128,7 +29811,12 @@
     "classFileBefore": "proc/changes/CVE-2019-11343/3c20b874fba9cc2a78b9ace10208de1602b56c3f/before/class/src/main/java/org/torpedoquery/jpa/internal/conditions/NotLikeCondition.class",
     "classFileAfter": "proc/changes/CVE-2019-11343/3c20b874fba9cc2a78b9ace10208de1602b56c3f/after/class/src/main/java/org/torpedoquery/jpa/internal/conditions/NotLikeCondition.class",
     "changedClass": "NotLikeCondition",
-    "changedMethods": "[NotLikeCondition::getLike, NotLikeCondition::NotLikeCondition, NotLikeCondition::getComparator, NotLikeCondition::NotLikeCondition]",
+    "changedMethods": [
+      "NotLikeCondition::getLike",
+      "NotLikeCondition::NotLikeCondition",
+      "NotLikeCondition::getComparator",
+      "NotLikeCondition::NotLikeCondition"
+    ],
     "packageIdBefore": "org.torpedoquery.jpa.internal.conditions",
     "packageIdAfter": "org.torpedoquery.jpa.internal.conditions",
     "diffJson": {
@@ -29203,7 +29891,9 @@
     "classFileBefore": "proc/changes/CVE-2020-11988/57393912eb87b994c7fed39ddf30fb778a275183/before/class/src/main/java/org/apache/xmlgraphics/xmp/XMPParser.class",
     "classFileAfter": "proc/changes/CVE-2020-11988/57393912eb87b994c7fed39ddf30fb778a275183/after/class/src/main/java/org/apache/xmlgraphics/xmp/XMPParser.class",
     "changedClass": "XMPParser",
-    "changedMethods": "[XMPParser::parseXMP]",
+    "changedMethods": [
+      "XMPParser::parseXMP"
+    ],
     "packageIdBefore": "org.apache.xmlgraphics.xmp",
     "packageIdAfter": "org.apache.xmlgraphics.xmp",
     "diffJson": {
@@ -29241,7 +29931,11 @@
     "classFileBefore": "proc/changes/CVE-2019-10091/e57028fd62a2f5980ea6c9a7ab89ada06c828634/before/class/geode-core/src/main/java/org/apache/geode/internal/net/SocketCreator.class",
     "classFileAfter": "proc/changes/CVE-2019-10091/e57028fd62a2f5980ea6c9a7ab89ada06c828634/after/class/geode-core/src/main/java/org/apache/geode/internal/net/SocketCreator.class",
     "changedClass": "SocketCreator",
-    "changedMethods": "[SocketCreator::configureClientSSLSocket, SocketCreator::handshakeSSLSocketChannel, SocketCreator::checkAndEnableHostnameValidation]",
+    "changedMethods": [
+      "SocketCreator::configureClientSSLSocket",
+      "SocketCreator::handshakeSSLSocketChannel",
+      "SocketCreator::checkAndEnableHostnameValidation"
+    ],
     "packageIdBefore": "org.apache.geode.internal.net",
     "packageIdAfter": "org.apache.geode.internal.net",
     "diffJson": {
@@ -29416,7 +30110,9 @@
     "classFileBefore": "proc/changes/CVE-2019-10091/e57028fd62a2f5980ea6c9a7ab89ada06c828634/before/class/geode-core/src/main/java/org/apache/geode/internal/tcp/Connection.class",
     "classFileAfter": "proc/changes/CVE-2019-10091/e57028fd62a2f5980ea6c9a7ab89ada06c828634/after/class/geode-core/src/main/java/org/apache/geode/internal/tcp/Connection.class",
     "changedClass": "Connection",
-    "changedMethods": "[Connection::createIoFilter]",
+    "changedMethods": [
+      "Connection::createIoFilter"
+    ],
     "packageIdBefore": "org.apache.geode.internal.tcp",
     "packageIdAfter": "org.apache.geode.internal.tcp",
     "diffJson": {
@@ -29470,7 +30166,10 @@
     "classFileBefore": "proc/changes/CVE-2020-13692/14b62aca4764d496813f55a43d050b017e01eb65/before/class/pgjdbc/src/main/java/org/postgresql/ds/common/BaseDataSource.class",
     "classFileAfter": "proc/changes/CVE-2020-13692/14b62aca4764d496813f55a43d050b017e01eb65/after/class/pgjdbc/src/main/java/org/postgresql/ds/common/BaseDataSource.class",
     "changedClass": "BaseDataSource",
-    "changedMethods": "[BaseDataSource::getXmlFactoryFactory, BaseDataSource::setXmlFactoryFactory]",
+    "changedMethods": [
+      "BaseDataSource::getXmlFactoryFactory",
+      "BaseDataSource::setXmlFactoryFactory"
+    ],
     "packageIdBefore": "org.postgresql.ds.common",
     "packageIdAfter": "org.postgresql.ds.common",
     "diffJson": {
@@ -29528,7 +30227,10 @@
     "classFileBefore": "proc/changes/CVE-2020-13692/14b62aca4764d496813f55a43d050b017e01eb65/before/class/pgjdbc/src/main/java/org/postgresql/jdbc/PgConnection.class",
     "classFileAfter": "proc/changes/CVE-2020-13692/14b62aca4764d496813f55a43d050b017e01eb65/after/class/pgjdbc/src/main/java/org/postgresql/jdbc/PgConnection.class",
     "changedClass": "PgConnection",
-    "changedMethods": "[PgConnection::PgConnection, PgConnection::getXmlFactoryFactory]",
+    "changedMethods": [
+      "PgConnection::PgConnection",
+      "PgConnection::getXmlFactoryFactory"
+    ],
     "packageIdBefore": "org.postgresql.jdbc",
     "packageIdAfter": "org.postgresql.jdbc",
     "diffJson": {
@@ -29714,7 +30416,12 @@
     "classFileBefore": "proc/changes/CVE-2020-13692/14b62aca4764d496813f55a43d050b017e01eb65/before/class/pgjdbc/src/main/java/org/postgresql/jdbc/PgSQLXML.class",
     "classFileAfter": "proc/changes/CVE-2020-13692/14b62aca4764d496813f55a43d050b017e01eb65/after/class/pgjdbc/src/main/java/org/postgresql/jdbc/PgSQLXML.class",
     "changedClass": "PgSQLXML",
-    "changedMethods": "[PgSQLXML::getSource, PgSQLXML::ensureInitialized, PgSQLXML::getXmlFactoryFactory, PgSQLXML::setResult]",
+    "changedMethods": [
+      "PgSQLXML::getSource",
+      "PgSQLXML::ensureInitialized",
+      "PgSQLXML::getXmlFactoryFactory",
+      "PgSQLXML::setResult"
+    ],
     "packageIdBefore": "org.postgresql.jdbc",
     "packageIdAfter": "org.postgresql.jdbc",
     "diffJson": {
@@ -29913,7 +30620,10 @@
     "classFileBefore": "proc/changes/CVE-2018-21234/9bffc3913aeb8472c11bb543243004b4b4376f16/before/class/jodd-json/src/main/java/jodd/json/JsonParser.class",
     "classFileAfter": "proc/changes/CVE-2018-21234/9bffc3913aeb8472c11bb543243004b4b4376f16/after/class/jodd-json/src/main/java/jodd/json/JsonParser.class",
     "changedClass": "JsonParser",
-    "changedMethods": "[JsonParser::allowClass, JsonParser::allowAllClasses]",
+    "changedMethods": [
+      "JsonParser::allowClass",
+      "JsonParser::allowAllClasses"
+    ],
     "packageIdBefore": "jodd.json",
     "packageIdAfter": "jodd.json",
     "diffJson": {
@@ -30023,7 +30733,10 @@
     "classFileBefore": "proc/changes/CVE-2018-21234/9bffc3913aeb8472c11bb543243004b4b4376f16/before/class/jodd-json/src/main/java/jodd/json/MapToBean.class",
     "classFileAfter": "proc/changes/CVE-2018-21234/9bffc3913aeb8472c11bb543243004b4b4376f16/after/class/jodd-json/src/main/java/jodd/json/MapToBean.class",
     "changedClass": "MapToBean",
-    "changedMethods": "[MapToBean::map2bean, MapToBean::checkClassName]",
+    "changedMethods": [
+      "MapToBean::map2bean",
+      "MapToBean::checkClassName"
+    ],
     "packageIdBefore": "jodd.json",
     "packageIdAfter": "jodd.json",
     "diffJson": {
@@ -30105,7 +30818,9 @@
     "classFileBefore": "proc/changes/CVE-2020-13973/f3512bab078af3f5c533dacc2d410add8c0c1124/before/class/src/main/java/com/google/json/JsonSanitizer.class",
     "classFileAfter": "proc/changes/CVE-2020-13973/f3512bab078af3f5c533dacc2d410add8c0c1124/after/class/src/main/java/com/google/json/JsonSanitizer.class",
     "changedClass": "JsonSanitizer",
-    "changedMethods": "[JsonSanitizer::sanitizeString]",
+    "changedMethods": [
+      "JsonSanitizer::sanitizeString"
+    ],
     "packageIdBefore": "com.google.json",
     "packageIdAfter": "com.google.json",
     "diffJson": {
