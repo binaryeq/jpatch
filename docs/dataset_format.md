@@ -1,8 +1,8 @@
 - all of the (processed) data is in `data/proc` directory.
 - `data/proc/changes.tsv`, `data/proc/changes.json`, and ``data/proc/changes.v2.json`` contain the exact same information but in different formats. 
   - `data/proc/changes.tsv` is tab separated. first row is the header.
-  - `data/proc/changes.json` is json formatted. `diffParsedJson` field is a json-formatted raw string.
-  - `data/proc/changes.v2.json` is json formatted. `diffParsedJson` field is a json object.
+  - `data/proc/changes.json` is json formatted. all fields are raw strings.
+  - `data/proc/changes.v2.json` is json formatted. `diffParsedJson` field is a json object. `changedMethods` is a json array.
   - the columns/fields are:
     - `cveId`: The CVE id, which is `vulnerability_id` in project-kb dataset and `aliases` in GHSA dataset.
     - `ghsaId`: `id` field in GHSA dataset.
