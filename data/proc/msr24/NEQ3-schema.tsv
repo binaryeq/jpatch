@@ -1,0 +1,13 @@
+name	type	description
+container_1	string	the jar file location of the 'latest_vulnerable_version' of the package
+container_2	string	the jar file location of the 'fixed_version' of the package
+class_1	string	path of the modified class file in container_1
+class_2	string	path of the modified class file in container_2
+cve_id	string	The CVE id, which is 'vulnerability_id' in project-kb dataset and 'aliases' in GHSA dataset.
+ghsa_id	string	the 'id' field in GHSA dataset
+group_artifact	string	group:artifact (GA)
+latest_vulnerable_version	string	the latest version of the artifact before the fixed version
+fixed_version	string	'affected.ranges.events.fixed' in GHSA dataset
+repo	string	the git repository of the library
+fix_commit	string	hash of the commit that patches the vulnerability
+modified_methods	string	list of modified method in the 'fix_commit'
